@@ -1,16 +1,11 @@
-import { About, Contact, Footer, Home, Navbar, Team, Work } from "@/components";
+import {  Home } from "@/components";
+import Layout from "@/components/Layout";
 
 const Home_page = () => {
   return (
-    <div>
-      <Navbar />
-      <Home />
-      <About />
-      <Work />
-      <Team />
-      <Contact />
-      <Footer/>
-    </div>
+   <Layout>
+        <Home/>
+    </Layout>
 
   );
 }
