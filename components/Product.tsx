@@ -60,7 +60,7 @@ const Product = () => {
                         <span className='text-xl font-medium'>Stand to Sit</span>
                         </div>
                         <span className='text-md'>As the user begins to sit, the chair provides a sharp rise, providing crucial support, which gradually slows down as they fully sit.</span>
-                        <div className='flex flex-row gap-12 mx-4 pt-8'>
+                        <div className='flex flex-row gap-4 mx-4 pt-8'>
                             <Image src="/Product/p-2.png" className='' width={800} height={800} alt="logo"></Image>
                             <Image src="/Product/p-3.png" className='' width={800} height={600} alt="logo"></Image>
                         </div>
@@ -70,7 +70,7 @@ const Product = () => {
                         <span className='text-2xl font-medium'>Sit to stand</span>
                         </div>
                         <span className='text-md'>On the other hand, when standing up, the seat pushes the user, effectively offloading the arms and minimizing muscle activation.</span>
-                        <div className='flex flex-row gap-12 mx-4 pt-8'>
+                        <div className='flex flex-row gap-4 mx-4 pt-8'>
                             <Image src="/Product/p-4.png" className='' width={800} height={600} alt="logo"></Image>
                             <Image src="/Product/p-5.png" className='' width={800} height={600} alt="logo"></Image>
                         </div>
