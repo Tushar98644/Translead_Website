@@ -5,7 +5,7 @@ import Image from 'next/image';
 const About = () => {
     return (
         <div className="flex flex-col gap-10 w-full pt-16">
-            <div className="flex flex-row gap-12 md:gap-48 px-12 py-8 mt-8 background">
+            <div className="md:flex flex-row gap-12 md:gap-48 px-12 py-8 mt-8 background hidden ">
                 <div className="flex flex-col gap-5">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
                     <span>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
@@ -15,7 +15,18 @@ const About = () => {
                     <span>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
-            <div className="flex flex-row ml-12 md:mr-40 md:gap-40 gap-0">
+            <div className='flex flex-col md:hidden gap-10  mt-20 ml-7'>
+                <div className='text-3xl font-extrabold' >
+                    About Translead Medtech
+                </div>
+                <div className='text-xl font-extrabold' >
+                    We do things differently
+                </div>
+                <div className='text-lg' >
+                    Present-day sitting behaviour’s are vastly different from how our ancestors lived just a century ago. Focuses on bridging the gap by understanding its elderly users and  Provide better sitting and standing experience.
+                </div>
+            </div>
+            <div className="md:flex flex-row ml-12 md:mr-40 md:gap-40 gap-0 hidden">
                 <div className="flex flex-col gap-5 flex-1">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
                     <span>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
@@ -33,18 +44,61 @@ const About = () => {
 
                 </div>
             </div>
-            <div className='grid grid-cols-5 md:gap-10 md:ml-20 ml-10 gap-10 min-w-ful mt-10'>
+            <div className='flex flex-col md:hidden gap-10 ml-7'>
+                <div className='text-xl font-extrabold' >
+                    When an how did it start?
+                </div>
+                <div className='flex flex-row gap-4' >
+                    <div className='flex flex-col gap-20'>
+                        <div className='text-md' >
+                            <span className='text-red-500'>2013</span>
+                             <br />
+                            Group of scientists at IISc and a group of geriatricians get together.
+                        </div>
+                        <div className='text-md' >
+                        <span className='text-red-500'>2023</span>
+                             <br />
+                            We have our product Stand at Eaze ready and out in the market.
+                        </div>
+                    </div>
+                    <div className='flex flex-col gap-12 mr-4'>
+                        <Image src="/About/27.png" className='' width={200} height={200} alt="logo"></Image>
+                        <Image src="/About/28.png" className='' width={200} height={200} alt="logo"></Image>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div className='flex flex-col mx-8 md:hidden font-extrabold text-xl'>
+                <p>Let’s see what has the advisory board member have to say</p>
+                <div className='mt-10'>
+                    <iframe
+                        width="320vw"
+                        height="300vw"
+                        src='https://www.youtube.com/embed/aD1c_YmHsFg'
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title="Embedded youtube"
+                    />
+
+
+                </div>
+
+
+            </div>
+            <div className='md:grid grid-cols-5 md:gap-10 md:ml-20 ml-10 gap-10 min-w-ful mt-10 hidden'>
                 <Image src="/about-1.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/about-2.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/about-3.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/about-4.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/about-5.png" className='' width={100} height={100} alt="logo"></Image>
             </div>
-            <div className='md:mt-10 md:mx-20 flex flex-col gap-5'>
-                <p className='md:text-4xl font-extrabold'>Funding and Support</p>
+            <div className='md:mt-10 md:mx-20 mx-8 flex flex-col gap-5'>
+                <p className='md:text-4xl text-xl font-extrabold'>Funding and Support</p>
                 <p className='ms:text-lg'>Translead Medtech has secured significant funding and garnered substantial support from various sources, enabling the company to fuel its growth and innovative endeavors. Additionally, Translead Medtech has actively sought support from government grants, research institutions, and entrepreneurial networks to foster innovation and drive advancements in the field of medical technology.</p>
             </div>
-            <div className='grid grid-cols-4 gap-10 px-20 items-center'>
+            <div className='grid md:grid-cols-4 gap-10 md:px-20 items-center px-10  grid-cols-3'>
                 <Image src="/About/20.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/21.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/22.png" className='' width={200} height={200} alt="logo"></Image>
