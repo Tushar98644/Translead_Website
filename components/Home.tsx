@@ -5,12 +5,12 @@ const Home = () => {
     return (
         <div className='flex flex-col'>
             <div className="pt-20 min-w-full relative">
-                <Image src="/home.png" className='w-full z-0 image' width={200} height={200} alt="logo">
+                <Image src="/home.png" className='w-full z-0  md:opacity-100 opacity-50' width={200} height={200} alt="logo">
                 </Image>
-                <img alt='' src='/home-text.png' width={500} height={500} className='md:w-[45vw] md:h-[25vw] h-20 w-52 z-10 pt-0 absolute md:top-60 md:left-20 top-36 left-2 hidden' />
-                <span className='absolute left-12 top-[60vw] sm:hidden font-extrabold md:hidden'>Transforming Healthcare through Innovative Technology</span>
+                <img alt='' src='/home-text.png' width={500} height={500} className='md:w-[45vw] md:h-[25vw] h-20 w-52 z-10 pt-0 md:absolute md:block md:top-60 md:left-20 hidden' />
+                <span className='absolute left-12 top-[60vw]  font-extrabold md:hidden'>Transforming Healthcare through Innovative Technology</span>
             </div>
-            <div className='flex flex-row md:gap-[15vw] w-half ml-12 md:mt-40 md:mb-16 gap-[10vw] text-sm mt-20'>
+            <div className='flex md:flex-row flex-col md:gap-[15vw] w-half ml-12 md:mt-40 md:mb-16 gap-[10vw] text-sm mt-20'>
                 <span className='font-extrabold text-2xl md:text-4xl lg:text-5xl'>what problem are we solving?</span>
                 <div className='flex flex-col gap-8 mr-10'>
                     <span className='flex flex-row gap-3 items-center'>
