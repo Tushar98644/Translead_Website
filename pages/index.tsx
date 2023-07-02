@@ -9,7 +9,7 @@ const Home_page = () => {
       <Work />
       <Team />
       <Contact />
-      {/* <Footer/> */}
+      <Footer/>
     </div>
 
   );
