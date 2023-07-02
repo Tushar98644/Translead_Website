@@ -52,12 +52,12 @@ const About = () => {
                     <div className='flex flex-col gap-20'>
                         <div className='text-md' >
                             <span className='text-red-500'>2013</span>
-                             <br />
+                            <br />
                             Group of scientists at IISc and a group of geriatricians get together.
                         </div>
                         <div className='text-md' >
-                        <span className='text-red-500'>2023</span>
-                             <br />
+                            <span className='text-red-500'>2023</span>
+                            <br />
                             We have our product Stand at Eaze ready and out in the market.
                         </div>
                     </div>
