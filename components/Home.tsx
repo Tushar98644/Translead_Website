@@ -7,7 +7,7 @@ const Home = () => {
             <div className="pt-20 min-w-full relative">
                 <Image src="/home.png" className='w-full z-0  md:opacity-100 opacity-50' width={200} height={200} alt="logo">
                 </Image>
-                <img alt='' src='/home-text.png' width={500} height={500} className='md:w-[45vw] md:h-[25vw] h-20 w-52 z-10 pt-0 md:absolute md:block md:top-60 md:left-20 hidden' />
+                <img alt='' src='/Home/home-text.png' width={500} height={500} className='md:w-[45vw] md:h-[25vw] h-20 w-52 z-10 pt-0 md:absolute md:block md:top-60 md:left-20 hidden' />
                 <span className='absolute left-12 top-[60vw]  font-extrabold md:hidden'>Transforming Healthcare through Innovative Technology</span>
             </div>
             <div className='flex md:flex-row flex-col md:gap-[10vw] w-half md:ml-12 mx-8 md:mt-28 md:mb-16 gap-[10vw] text-sm mt-20'>
