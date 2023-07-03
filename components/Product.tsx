@@ -5,10 +5,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image';
 const Product = () => {
     return (
-        <div className="flex flex-col w-full pt-16 gap-10">
-            <div className="flex md:flex-row md:gap-96 px-12 py-8 mt-8 background flex-col-reverse">
-                <div className="flex flex-col gap-5">
-                    <span className="text-4xl font-extrabold">Stand at <span className="text-red-600">Ease</span> </span>
+        <div className="flex flex-col w-full pt-16 md:gap-10 gap-3 rounded-lg">
+            <div className="flex md:flex-row md:gap-96 md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
+                <div className="flex flex-col md:gap-5 gap-2">
+                    <span className="md:text-4xl md:font-extrabold font-semibold text-base">Stand at <span className="text-red-600">Ease</span> </span>
                     <span className='md:flex flex-row gap-3 text-lg hidden'>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.36249 26.1718C6.77025 24.9002 4.68396 22.7896 3.4424 20.1829C2.20083 17.5761 1.87689 14.6262 2.52319 11.8121C3.16948 8.998 4.74805 6.48501 7.00257 4.68116C9.2571 2.87732 12.0552 1.88854 14.9425 1.87538C17.8298 1.86222 20.6368 2.82545 22.9077 4.60867C25.1785 6.39189 26.7799 8.89038 27.4519 11.6985C28.1238 14.5065 27.8267 17.4593 26.609 20.0773C25.3912 22.6952 23.3243 24.8247 20.7437 26.1199" stroke="#FB1010" stroke-linecap="round" stroke-linejoin="round" />
@@ -38,39 +38,38 @@ const Product = () => {
                         <p>                        thoughtfully crafted height and width to accommodate a wide range of users
                         </p>
                     </span>
-                    <span className='md:hidden text-xl'>
+                    <span className='md:hidden text-sm'>
                         With its patented Compliant Hinge Mechanism, dynamic balancing technology, and premium upholstery, it ensures smooth transitions, enhanced stability, improved posture, and a luxurious seating experience.
                     </span>
                     <div className='flex md:ml-8 mt-2 text-white'>
-                        <button className='bg-red-500 p-4 rounded-lg'>Pre-order Now</button>
+                        <button className='bg-red-600 md:p-4 p-2 md:text-base text-xs rounded-lg'>Pre-order Now</button>
                     </div>
-
                 </div>
                 <div>
                     <Image src="/Product/product.png" className='' width={400} height={400} alt="logo"></Image>
                 </div>
             </div>
-            <div className="flex md:flex-col md:ml-12 md:mr-20 md:gap-2 gap-4 flex-col">
-                <span className="md:text-4xl text-2xl font-extrabold md:ml-0 ml-10">
+            <div className="flex flex-col md:ml-12 md:mr-20 md:gap-2 mx-6">
+                <span className="md:text-4xl text-base font-bold md:font-extrabold md:ml-0">
                     How does ‘Stand at Ease Work’?
                 </span>
                 <Carousel showThumbs={false} dynamicHeight={false} useKeyboardArrows={true} autoPlay={false} infiniteLoop={false}>
-                    <div className='flex flex-col gap-4 md:hidden mx-8 mt-4'>
-                        <div className='flex items-start ml-2'>
-                        <span className='text-xl font-medium'>Stand to Sit</span>
+                    <div className='flex flex-col gap-2 md:hidden mt-4'>
+                        <div className='flex items-start'>
+                            <span className='text-sm font-medium'>Stand to Sit</span>
                         </div>
-                        <span className='text-md'>As the user begins to sit, the chair provides a sharp rise, providing crucial support, which gradually slows down as they fully sit.</span>
-                        <div className='flex flex-row gap-4 mx-4 pt-8'>
+                        <span className='text-xs'>As the user begins to sit, the chair provides a sharp rise, providing crucial support, which gradually slows down as they fully sit.</span>
+                        <div className='flex flex-row gap-4 pt-4'>
                             <Image src="/Product/p-2.png" className='' width={800} height={800} alt="logo"></Image>
                             <Image src="/Product/p-3.png" className='' width={800} height={600} alt="logo"></Image>
                         </div>
                     </div>
-                    <div className='flex flex-col gap-4 md:hidden mx-8 mt-4'>
-                        <div className='flex items-start ml-2'>
-                        <span className='text-2xl font-medium'>Sit to stand</span>
+                    <div className='flex flex-col gap-2 md:hidden mt-4'>
+                        <div className='flex items-start'>
+                            <span className='text-sm font-medium'>Sit to stand</span>
                         </div>
-                        <span className='text-md'>On the other hand, when standing up, the seat pushes the user, effectively offloading the arms and minimizing muscle activation.</span>
-                        <div className='flex flex-row gap-4 mx-4 pt-8'>
+                        <div className='text-xs'>On the other hand, when standing up, the seat pushes the user, effectively offloading the arms and minimizing muscle activation.</div>
+                        <div className='flex flex-row gap-4 pt-4'>
                             <Image src="/Product/p-4.png" className='' width={800} height={600} alt="logo"></Image>
                             <Image src="/Product/p-5.png" className='' width={800} height={600} alt="logo"></Image>
                         </div>

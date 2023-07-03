@@ -6,12 +6,12 @@ import { Carousel } from 'react-responsive-carousel';
 const About = () => {
     return (
         <div className="flex flex-col md:gap-10 gap-6 w-full pt-16">
-            <div className="md:flex flex-row gap-12 md:gap-48 px-12 py-8 mt-8 background hidden ">
-                <div className="flex flex-col gap-5">
+            <div className="md:flex flex-row gap-48 px-8 py-8 mt-8 background hidden ">
+                <div className="flex flex-col gap-3">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
                     <span>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
                 </div>
-                <div className="flex flex-col gap-6 mx-12">
+                <div className="flex flex-col gap-3 mx-4">
                     <span className="text-4xl font-extrabold items-end ml-[30vw]">Our <span className="text-red-600">Vision</span> </span>
                     <span>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
@@ -27,8 +27,8 @@ const About = () => {
                     Present-day sitting behaviour’s are vastly different from how our ancestors lived just a century ago. Focuses on bridging the gap by understanding its elderly users and  Provide better sitting and standing experience.
                 </div>
             </div>
-            <div className="md:flex flex-row ml-12 md:mr-40 md:gap-40 gap-0 hidden">
-                <div className="flex flex-col gap-5 flex-1">
+            <div className="md:flex flex-row mx-6 md:mr-40 md:gap-40 gap-0 hidden">
+                <div className="flex flex-col gap-3 flex-1">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
                     <span>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
                 </div>
@@ -52,7 +52,7 @@ const About = () => {
                 <div className='flex flex-row gap-4' >
                     <div className='flex flex-col gap-2'>
                         <div className='text-sm' >
-                            <span className='text-red-500'>2013</span>
+                            <span className='text-red-600'>2013</span>
                             <br />
                             Group of scientists at IISc and a group of geriatricians get together.
                         </div>
@@ -62,7 +62,7 @@ const About = () => {
                             </svg>
                         </div>
                         <div className='text-sm' >
-                            <span className='text-red-500'>2023</span>
+                            <span className='text-red-600'>2023</span>
                             <br />
                             We have our product Stand at Eaze ready and out in the market.
                         </div>
