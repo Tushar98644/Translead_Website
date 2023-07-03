@@ -8,7 +8,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 const Product_Engineer = () => {
     return (
         <div className="pt-32 ">
-            <div className="hidden md:flex flex-col gap-10">
+            <div className="hidden md:flex flex-col gap-10 ">
                 <div className="font-extrabold text-3xl flex justify-center">
                     Our Advisory Board
                 </div>
@@ -44,7 +44,7 @@ const Product_Engineer = () => {
                         </svg>
                     </div>
                     <div className="flex flex-col gap-2">
-                        <span className="text-xl font-bold">Product Enginner Intern</span>
+                        <span className="font-bold text-xl">Product Engineer Intern</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
@@ -55,38 +55,38 @@ const Product_Engineer = () => {
 
                 </div>
             </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
-                <span className="text-3xl font-bold">Requirements</span>
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-12">
+                <span className="md:text-3xl underline md:no-underline text-2xl font-bold">Requirements</span>
                 <div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
+                    <span className="md:text-lg text-md font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Basic experience with CAD </span>
+                    <span className="md:text-lg text-md font-regular">Basic experience with CAD </span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Presentation of concepts</span>
+                    <span className="md:text-lg text-md font-regular">Presentation of concepts</span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Willingness to dive into design decision methodologies and framework creation</span>
+                    <span className="md:text-lg text-md font-regular">Willingness to dive into design decision methodologies and framework creation</span>
                 </div><div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
+                    <span className="md:text-lg text-md font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
                 </div><div className="flex flex-row gap-2 items-center">
                     <FiberManualRecordIcon className="h-4" />
-                    <span className="text-lg font-regular">Will get to learn how to develop, test and correct design intuition</span>
+                    <span className="md:text-lg text-md font-regular">Will get to learn how to develop, test and correct design intuition</span>
                 </div>
             </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
-                <span className="text-3xl font-bold">PLACE</span>
-                <span className="text-xl font-regular">Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare TechnologyBusiness Incubator, IISc, Bangalore</span>
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-12">
+                <span className="md:text-3xl text-2xl font-bold md:no-underline underline">PLACE</span>
+                <span className="md:text-xl text-lg font-regular">Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare TechnologyBusiness Incubator, IISc, Bangalore</span>
             </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
-                <span className="text-3xl font-bold">CONTACT</span>
-                <span className="text-xl font-regular">Email: info@transleadmedtech.com <br />
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-8">
+                <span className="md:text-3xl text-2xl md:no-underline underline font-bold">CONTACT</span>
+                <span className="md:text-xl text-lg font-regular">Email: info@transleadmedtech.com <br />
                     Phone: +91-86181 13553
                 </span>
             </div>

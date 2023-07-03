@@ -1,7 +1,6 @@
 import Map from './Map'
 
 const Contact = () => {
-
     return (
         <div className="pt-36 flex flex-col sm:mx-24 mx-12 gap-4">
             <div className="flex md:flex-row flex-col gap-20">
@@ -33,8 +32,7 @@ const Contact = () => {
                             <textarea className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Write your message here " rows={8} required />
                         </div>
                         <div className='text-center mt-12'>
-                            <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit</button>
-
+                            <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none shadow-xl focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit</button>
                         </div>
                     </form>
                 </div>
