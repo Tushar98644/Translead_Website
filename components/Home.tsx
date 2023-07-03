@@ -34,7 +34,7 @@ const Home = () => {
                     <span className='flex flex-row gap-3 items-start'>
                         <Image src='/Home/2.png' width={20} height={20} alt='logo' className='w-8 h-8' />
                         <div className='flex flex-col gap-2'>
-                            <h1 className='text-xl'>Hindering Mobility</h1>
+                            <h1 className='text-xl'>Excessive Knee Load</h1>
                             <p className='hidden md:block'>Prolonged sitting can result in muscle stiffness, reduced flexibility, and weakened strength, making it harder to rise from a seated position.</p>
                         </div>
                     </span>
@@ -46,7 +46,7 @@ const Home = () => {
                     <span className='flex flex-row gap-3 items-start'>
                         <Image src='/Home/3.png' width={20} height={20} alt='logo' className='w-8 h-8' />
                         <div className='flex flex-col gap-2'>
-                            <h1 className='text-xl'>Hindering Mobility</h1>
+                            <h1 className='text-xl'>Problems due to long sitting hours</h1>
                             <p className='hidden md:block'>Prolonged sitting can result in muscle stiffness, reduced flexibility, and weakened strength, making it harder to rise from a seated position.</p>
                         </div>
                     </span>
@@ -60,7 +60,6 @@ const Home = () => {
                         <svg width="400" height="1" viewBox="0 0 738 1" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="0.5" x2="738" y2="0.5" stroke="black" />
                         </svg>
-
                     </div>
                 </div>
             </div>
