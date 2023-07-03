@@ -1,38 +1,37 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
 
 const Team = () => {
     return (
-        <div className="pt-32 flex flex-col gap-10">
-            <div className="font-extrabold text-3xl flex justify-center">
+        <div className="pt-32 flex flex-col md:gap-10 gap-4 mx-4">
+            <div className="md:font-extrabold font-bold text-lg md:text-3xl flex md:justify-center justify-start">
                 Our Advisory Board
             </div>
-            <div className="text-xl mx-20">
+            <div className="text-xl mx-20 hidden md:block">
                 We are extremely grateful to the learned professors who have helped and guided us on several occasions, enriching us with their knowledge and ideologies.
             </div>
-            <div className="grid md:grid-cols-3 grid-cols-2 md:mx-28 ml-12 mr-8 gap-10">
-                <div className="flex flex-col gap-6">
+            <div className="md:grid md:grid-cols-3 flex flex-col md:mx-28 items-center md:gap-10 gap-8">
+                <div className="flex flex-col md:gap-6 gap-0">
                     <Image src="/Team/team-1.png" width={320} height={350} alt="logo"></Image>
-                    <p className="text-2xl font-extrabold">Prof.G .K Ananthasuresh</p>
-                    <p className="text-lg"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
+                    <p className="md:text-2xl md:font-extrabold text-sm font-semibold mt-4">Prof.G .K Ananthasuresh</p>
+                    <p className="md:text-lg text-xs"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
                 </div>
-                <div className="flex flex-col gap-6 mt-2">
-                    <img src="/Team/team-2.png" width={350} height={350} alt="logo" />
-                    <p className="text-2xl font-extrabold">Dr. Medha Rao</p>
-                    <p className="text-lg"> Principal and Dean, M.S. Ramaiah Medical College</p>
+                <div className="flex flex-col md:gap-6 gap-0">
+                    <Image src="/Team/team-2.png" width={350} height={350} alt="logo" />
+                    <p className="md:text-2xl md:font-extrabold text-sm font-semibold mt-4">Dr. Medha Rao</p>
+                    <p className="md:text-lg text-xs"> Principal and Dean, M.S. Ramaiah Medical College</p>
                 </div>
-                <div className="flex flex-col gap-6">
-                    <Image src="/Team/team-3.png" className='' width={300} height={300} alt="logo"></Image>
-                    <p className="text-2xl font-extrabold">Dr. Pretesh. R. Kiran</p>
-                    <p className="text-lg"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
+                <div className="flex flex-col md:gap-6 gap-0">
+                    <Image src="/Team/team-3.png" width={320} height={350} alt="logo"></Image>
+                    <p className="md:text-2xl md:font-extrabold text-sm font-semibold mt-4">Dr. Pretesh. R. Kiran</p>
+                    <p className="md:text-lg text-xs"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
                 </div>
             </div>
-            <div className="font-extrabold md:text-3xl text-xl flex md:justify-center mx-12 mt-10">
+            <div className="md:font-extrabold font-bold md:text-3xl text-lg flex md:justify-center md:mx-12 md:mt-10 mt-2">
                 Want to be a part of this revolution? We’re hiring!
             </div>
-            <div className="flex md:flex-row flex-col md:pb-12 mx-12 md:gap-[38vw] gap-12 md:mx-28">
+            <div className="flex md:flex-row flex-col md:pb-12 md:gap-[38vw] gap-12 md:mx-28">
                 <div className="flex flex-row gap-4">
                     <div className="flex items-center">
                         <svg width="81" height="2" viewBox="0 0 81 2" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,7 +44,7 @@ const Team = () => {
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
-                            <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
+                                <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>
                     </div>
@@ -62,16 +61,16 @@ const Team = () => {
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_engineer">
-                            <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
-                                </Link>
+                                <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
+                            </Link>
                         </div>
                     </div>
 
                 </div>
             </div>
-                <div className="font-medium md:text-2xl text-xl md:mx-32 mx-8 flex justify-start">
-                    <span>Could not find your position? Submit this form and we will get back to you sure!</span>
-                </div>
+            <div className="font-medium md:text-2xl text-base md:mx-32 mx-4 flex justify-start md:mt-0 mt-5">
+                <span>Could not find your position? Submit this form and we will get back to you sure!</span>
+            </div>
             <div className="mt-10 mx-32 hidden md:block">
                 <form >
                     <div className="grid grid-cols-2 gap-20">
@@ -99,7 +98,7 @@ const Team = () => {
                     </div>
                 </form>
             </div>
-            <div className="md:hidden mx-8">
+            <div className="md:hidden mx-4">
                 <div className='w-full'>
                     <form>
                         <div className="grid md:grid-cols-2 md:gap-6">
