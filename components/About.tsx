@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
+import { Carousel } from 'react-responsive-carousel';
 
 const About = () => {
     return (
@@ -76,18 +77,14 @@ const About = () => {
                 <p>Let’s see what has the advisory board member have to say</p>
                 <div className='mt-10'>
                     <iframe
-                        width="320vw"
-                        height="300vw"
+                        width="auto"
+                        height="auto"
                         src='https://www.youtube.com/embed/aD1c_YmHsFg'
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen
                         title="Embedded youtube"
                     />
-
-
                 </div>
-
-
             </div>
             <div className='md:grid grid-cols-5 md:gap-10 md:ml-20 ml-10 gap-10 min-w-ful mt-10 hidden'>
                 <Image src="/About/about-1.png" className='' width={100} height={100} alt="logo"></Image>
@@ -100,7 +97,7 @@ const About = () => {
                 <p className='md:text-4xl text-xl font-extrabold'>Funding and Support</p>
                 <p className='ms:text-lg'>Translead Medtech has secured significant funding and garnered substantial support from various sources, enabling the company to fuel its growth and innovative endeavors. Additionally, Translead Medtech has actively sought support from government grants, research institutions, and entrepreneurial networks to foster innovation and drive advancements in the field of medical technology.</p>
             </div>
-            <div className='grid md:grid-cols-4 gap-10 md:px-20 items-center px-10  grid-cols-3'>
+            <div className='md:grid grid-cols-4 gap-10 md:px-20 items-center px-10 hidden'>
                 <Image src="/About/20.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/21.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/22.png" className='' width={200} height={200} alt="logo"></Image>
@@ -109,7 +106,21 @@ const About = () => {
                 <Image src="/About/25.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/26.png" className='' width={200} height={200} alt="logo"></Image>
             </div>
-
+            <Carousel showThumbs={false} dynamicHeight={false} useKeyboardArrows={true} autoPlay={false} infiniteLoop={false}>
+                <div className='grid grid-cols-3 gap-4 mx-8 mb-4 md:hidden'>
+                <Image src="/About/21.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                    <Image src="/About/22.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                    <Image src="/About/24.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                </div>             
+                <div className='grid grid-cols-3 gap-4 mx-8 mb-4 md:hidden'>
+                    <Image src="/About/25.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                    <Image src="/About/26.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                    <Image src="/About/23.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                </div>
+                <div className='grid grid-cols-3 gap-4 mx-8 mb-4 md:hidden'>
+                    <Image src="/About/20.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
+                </div>
+            </Carousel>
         </div>
     );
 }
