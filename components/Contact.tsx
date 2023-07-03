@@ -20,7 +20,7 @@ const Contact = () => {
                     <div className="sm:font-extrabold font-bold sm:text-3xl text-lg  flex justify-start">
                         Contact
                     </div>
-                    <div className="text-xs sm:text-lg">
+                    <div className="text-sm sm:text-lg">
                         For any inquiries about us and the work we do, please use the form on the right and drop a note to us. We will be sure to get back to you as soon as we can.
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Contact = () => {
                     <div className="sm:text-xl text-base font-medium">
                         Bangalore
                     </div>
-                    <div className="sm:text-lg text-xs">
+                    <div className="sm:text-lg text-sm">
                         Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka
                     </div>
                 </div>
