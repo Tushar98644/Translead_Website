@@ -88,11 +88,11 @@ const About = () => {
 
             </div>
             <div className='md:grid grid-cols-5 md:gap-10 md:ml-20 ml-10 gap-10 min-w-ful mt-10 hidden'>
-                <Image src="/about-1.png" className='' width={100} height={100} alt="logo"></Image>
-                <Image src="/about-2.png" className='' width={100} height={100} alt="logo"></Image>
-                <Image src="/about-3.png" className='' width={100} height={100} alt="logo"></Image>
-                <Image src="/about-4.png" className='' width={100} height={100} alt="logo"></Image>
-                <Image src="/about-5.png" className='' width={100} height={100} alt="logo"></Image>
+                <Image src="/About/about-1.png" className='' width={100} height={100} alt="logo"></Image>
+                <Image src="/About/about-2.png" className='' width={100} height={100} alt="logo"></Image>
+                <Image src="/About/about-3.png" className='' width={100} height={100} alt="logo"></Image>
+                <Image src="/About/about-4.png" className='' width={100} height={100} alt="logo"></Image>
+                <Image src="/About/about-5.png" className='' width={100} height={100} alt="logo"></Image>
             </div>
             <div className='md:mt-10 md:mx-20 mx-8 flex flex-col gap-5'>
                 <p className='md:text-4xl text-xl font-extrabold'>Funding and Support</p>
