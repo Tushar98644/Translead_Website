@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="bg-white border-gray-200 border-b shadow-lg p-8 min-w-full fixed z-20">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
                 <Link href="/" className="flex items-center">
-                    <img src="/logo.png" className="h-8 mr-3" alt="Flowbite Logo" />
+                    <img src="/Home/logo.png" className="h-8 mr-3" alt="Flowbite Logo" />
                 </Link>
                 <button
                     onClick={() => setIsOpen(!isOpen)}
