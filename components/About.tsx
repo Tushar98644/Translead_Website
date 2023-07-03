@@ -16,14 +16,14 @@ const About = () => {
                     <span>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
-            <div className='flex flex-col md:hidden gap-10  mt-20 mx-7'>
-                <div className='text-3xl font-extrabold' >
+            <div className='flex flex-col md:hidden gap-2 mt-20 mx-4'>
+                <div className='md:text-3xl text-xl md:font-extrabold font-bold' >
                     About Translead Medtech
                 </div>
-                <div className='text-xl font-extrabold' >
+                <div className='md:text-xl text-lg md:font-extrabold font-semibold mt-3' >
                     We do things differently
                 </div>
-                <div className='text-lg' >
+                <div className='text-sm font-normal' >
                     Present-day sitting behaviour’s are vastly different from how our ancestors lived just a century ago. Focuses on bridging the gap by understanding its elderly users and  Provide better sitting and standing experience.
                 </div>
             </div>
