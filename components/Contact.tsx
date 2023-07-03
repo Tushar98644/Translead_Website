@@ -37,7 +37,7 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className="flex md:flex-row gap-20 flex-col mt-10">
+            <div className="flex md:flex-row gap-10 flex-col mt-10">
                 <div className="flex flex-col gap-4">
                     <div className="sm:font-extrabold font-bold text-3xl  flex justify-start">
                         Our offices
@@ -49,8 +49,8 @@ const Contact = () => {
                         Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka
                     </div>
                 </div>
-                <div className='w-full'>
-                    <Map />
+                <div className='w-[80vw] h-[50vw] md:h-[30vw]'>
+                    <Map/>
                 </div>
             </div>
         </div>
