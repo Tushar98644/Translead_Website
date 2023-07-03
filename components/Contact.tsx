@@ -61,7 +61,7 @@ const Contact = () => {
                         Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka
                     </div>
                 </div>
-                <div className='w-[80vw] h-[50vw] md:h-[30vw]'>
+                <div className='w-[90vw] h-[50vw] md:h-[30vw]'>
                     <Map/>
                 </div>
             </div>
