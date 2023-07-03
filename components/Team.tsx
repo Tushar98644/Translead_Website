@@ -1,5 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
+import Link from "next/link";
+import { useState } from "react";
 
 const Team = () => {
     return (
@@ -42,7 +44,9 @@ const Team = () => {
                         <span>Product Design Intern</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
+                            <Link href="/about">
                             <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
+                            </Link>
                         </div>
                     </div>
 
@@ -57,15 +61,17 @@ const Team = () => {
                         <span>Asst. Product Engineer</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
+                            <Link href="/components/Product_engineer.tsx">
                             <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
+                                </Link>
                         </div>
                     </div>
 
                 </div>
             </div>
-            <div className="font-medium md:text-2xl text-xl md:mx-32 mx-8 flex justify-start">
-                <span>Could not find your position?  Submit this form and we will get back to you sure!</span>
-            </div>
+                <div className="font-medium md:text-2xl text-xl md:mx-32 mx-8 flex justify-start">
+                    <span>Could not find your position? Submit this form and we will get back to you sure!</span>
+                </div>
             <div className="mt-10 mx-32 hidden md:block">
                 <form >
                     <div className="grid grid-cols-2 gap-20">
@@ -120,13 +126,11 @@ const Team = () => {
                             <textarea className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Any other comments" rows={5} required />
                         </div>
                         <div className='text-center mt-12'>
-                            <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit</button>
-
+                            <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Seize your future now!</button>
                         </div>
                     </form>
                 </div>
             </div>
-
         </div>
     );
 }
