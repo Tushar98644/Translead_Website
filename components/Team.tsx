@@ -31,17 +31,16 @@ const Team = () => {
             <div className="md:font-extrabold font-bold md:text-3xl text-lg flex md:justify-center md:mx-12 md:mt-10 mt-2">
                 Want to be a part of this revolution? We’re hiring!
             </div>
-            <div className="flex md:flex-row flex-col md:pb-12 md:gap-[38vw] gap-12 md:mx-28">
+            <div className="flex md:flex-row flex-col md:pb-12 md:gap-[38vw] gap-4 md:mx-28">
                 <div className="flex flex-row gap-4">
                     <div className="flex items-center">
                         <svg width="81" height="2" viewBox="0 0 81 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="1" x2="81" y2="1" stroke="black" stroke-width="2" />
                         </svg>
                     </div>
-
-                    <div className="flex flex-col gap-2">
-                        <span>Product Design Intern</span>
-                        <span>Location: Bangalore, India</span>
+                    <div className="flex flex-col md:gap-2 gap-1">
+                        <span className="font-semibold text-base">Product Design Intern</span>
+                        <span className="text-sm">Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
                                 <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
@@ -56,9 +55,9 @@ const Team = () => {
                             <line y1="1" x2="81" y2="1" stroke="black" stroke-width="2" />
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-2">
-                        <span>Asst. Product Engineer</span>
-                        <span>Location: Bangalore, India</span>
+                    <div className="flex flex-col md:gap-2 gap-1">
+                        <span className="font-semibold text-base">Asst. Product Engineer</span>
+                        <span className="text-sm">Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_engineer">
                                 <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
@@ -68,7 +67,7 @@ const Team = () => {
 
                 </div>
             </div>
-            <div className="font-medium md:text-2xl text-base md:mx-32 mx-4 flex justify-start md:mt-0 mt-5">
+            <div className="font-medium md:text-2xl text-base md:mx-32 flex justify-start md:mt-0 mt-5">
                 <span>Could not find your position? Submit this form and we will get back to you sure!</span>
             </div>
             <div className="mt-10 mx-32 hidden md:block">
@@ -98,7 +97,7 @@ const Team = () => {
                     </div>
                 </form>
             </div>
-            <div className="md:hidden mx-4">
+            <div className="md:hidden">
                 <div className='w-full'>
                     <form>
                         <div className="grid md:grid-cols-2 md:gap-6">
