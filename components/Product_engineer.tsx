@@ -44,7 +44,7 @@ const Product_Engineer = () => {
                         </svg>
                     </div>
                     <div className="flex flex-col gap-2">
-                        <span>Product Enginner Intern</span>
+                        <span className="text-xl font-bold">Product Enginner Intern</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">

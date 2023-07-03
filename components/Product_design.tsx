@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Product_Design = () => {
     return (
@@ -42,9 +43,8 @@ const Product_Design = () => {
                             <line y1="1" x2="81" y2="1" stroke="black" stroke-width="2" />
                         </svg>
                     </div>
-
                     <div className="flex flex-col gap-2">
-                        <span>Product Design Intern</span>
+                        <span className="font-bold text-xl">Product Design Intern</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
@@ -54,6 +54,41 @@ const Product_Design = () => {
                     </div>
 
                 </div>
+            </div>
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
+                <span className="text-3xl font-bold">Requirements</span>
+                <div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Basic experience with CAD </span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Presentation of concepts</span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Willingness to dive into design decision methodologies and framework creation</span>
+                </div><div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
+                </div><div className="flex flex-row gap-2 items-center">
+                    <FiberManualRecordIcon className="h-4" />
+                    <span className="text-lg font-regular">Will get to learn how to develop, test and correct design intuition</span>
+                </div>
+            </div>
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
+                <span className="text-3xl font-bold">PLACE</span>
+                <span className="text-xl font-regular">Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare TechnologyBusiness Incubator, IISc, Bangalore</span>
+            </div>
+            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-12 md:mx-28 mt-2">
+                <span className="text-3xl font-bold">CONTACT</span>
+                <span className="text-xl font-regular">Email: info@transleadmedtech.com <br />
+                    Phone: +91-86181 13553
+                </span>
             </div>
             <div className="mt-10 mx-32 hidden md:block">
                 <form >
@@ -93,9 +128,9 @@ const Product_Design = () => {
                     </div>
                 </form>
             </div>
-            <div className="md:hidden mx-8 mt-10">
+            <div className=" mx-8 mt-10">
                 <div className='w-full'>
-                    <form>
+                    <form className="md:hidden">
                         <div className="grid md:grid-cols-2 md:gap-6">
                             <div className="relative z-0 w-full mb-6 group">
                                 <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Full Name" required />
@@ -128,11 +163,11 @@ const Product_Design = () => {
                             <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit your application</button>
                         </div>
                     </form>
-                    <div className='text-start mt-12'>
+                    <div className='text-start mt-12 md:mx-24 md:text-lg'>
                         <Link href="/team">
                             <ArrowBackIosIcon className="text-black w-3" />
                             <ArrowBackIosIcon className="text-black w-3" />
-                             Go back to view the Open Positions
+                            Go back to view the Open Positions
                         </Link>
                     </div>
 
