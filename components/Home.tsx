@@ -70,7 +70,7 @@ const Home = () => {
                         </svg>
                     </div>
             </div>
-            <div className='flex md:flex-row flex-col md:gap-[8vw] w-half md:mx-6 mx-4 md:my-0 gap-[3vw] text-base md:mt-6 mt-5'>
+            <div className='flex md:flex-row flex-col md:gap-[8.5vw] w-half md:mx-6 mx-4 md:my-0 gap-[3vw] text-base md:mt-4 mt-5'>
                 <span className='md:font-bold font-bold text-lg md:text-4xl lg:text-5xl md:my-20 my-0'>How are we solving this problem?</span>
                 <div className='flex flex-col gap-4 md:gap-8'>
                     <span className='md:text-3xl font-semibold text-base sm:text-2xl'>STAND AT <span className='text-red-500'>EASE</span>
