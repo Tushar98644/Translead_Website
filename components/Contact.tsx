@@ -1,6 +1,18 @@
+import { useState } from 'react';
 import Map from './Map'
 
 const Contact = () => {
+
+    const [firstname, setFirstName] = useState("");
+    const [lastname, setLastName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+    const [buttonText, setButtonText] = useState("Send");
+    const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+    const [showFailureMessage, setShowFailureMessage] = useState(false);
+
+    
     return (
         <div className="pt-36 flex flex-col sm:mx-24 mx-12 gap-4">
             <div className="flex md:flex-row flex-col gap-20">
@@ -13,23 +25,23 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='w-full'>
-                    <form>
+                    <form onSubmit={()=>console.log('hello')}>
                         <div className="grid md:grid-cols-2 md:gap-6">
                             <div className="relative z-0 w-full mb-6 group">
-                                <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="First Name" required />
+                                <input type="text" name="floating_first_name" id="floating_first_name" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" onChange={(e)=>setFirstName(e.target.value)} placeholder="First Name" required />
                             </div>
                             <div className="relative z-0 w-full mb-6 group">
-                                <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Last Name" required />
+                                <input type="text" name="floating_last_name" id="floating_last_name" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" onChange={(e)=>setLastName(e.target.value)} placeholder="Last Name" required />
                             </div>
                         </div>
                         <div className="relative z-0 w-full mb-6 group">
-                            <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Email " required />
+                            <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" onChange={(e)=>setEmail(e.target.value)} placeholder="Email " required />
                         </div>
                         <div className="relative z-0 w-full mb-6 group">
-                            <input type="text" name="floating_password" id="floating_password" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Subject " required />
+                            <input type="text" name="floating_password" id="floating_password" className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 focus:outline-none focus:ring-0 focus:border-blue-600 peer" onChange={(e)=>setSubject(e.target.value)} placeholder="Subject " required />
                         </div>
                         <div className="relative z-0 w-full mb-6 group">
-                            <textarea className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Write your message here " rows={8} required />
+                            <textarea className="block py-2.5 px-0 w-full text-black bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder="Write your message here" onChange={(e)=>setMessage(e.target.value)} rows={8} required />
                         </div>
                         <div className='text-center mt-12'>
                             <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none shadow-xl focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit</button>
