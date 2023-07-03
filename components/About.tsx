@@ -15,7 +15,7 @@ const About = () => {
                     <span>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
-            <div className='flex flex-col md:hidden gap-10  mt-20 ml-7'>
+            <div className='flex flex-col md:hidden gap-10  mt-20 mx-7'>
                 <div className='text-3xl font-extrabold' >
                     About Translead Medtech
                 </div>
@@ -49,11 +49,16 @@ const About = () => {
                     When an how did it start?
                 </div>
                 <div className='flex flex-row gap-4' >
-                    <div className='flex flex-col gap-20'>
+                    <div className='flex flex-col gap-2'>
                         <div className='text-md' >
                             <span className='text-red-500'>2013</span>
                             <br />
                             Group of scientists at IISc and a group of geriatricians get together.
+                        </div>
+                        <div className=''>
+                            <svg width="15" height="60" viewBox="0 0 1 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <line x1="0.5" x2="0.5" y2="50" stroke="black" />
+                            </svg>
                         </div>
                         <div className='text-md' >
                             <span className='text-red-500'>2023</span>
@@ -61,7 +66,7 @@ const About = () => {
                             We have our product Stand at Eaze ready and out in the market.
                         </div>
                     </div>
-                    <div className='flex flex-col gap-12 mr-4'>
+                    <div className='flex flex-col gap-4 mr-4'>
                         <Image src="/About/27.png" className='' width={200} height={200} alt="logo"></Image>
                         <Image src="/About/28.png" className='' width={200} height={200} alt="logo"></Image>
                     </div>
