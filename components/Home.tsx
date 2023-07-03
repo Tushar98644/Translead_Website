@@ -4,11 +4,11 @@ import Image from 'next/image';
 const Home = () => {
     return (
         <div className='flex flex-col'>
-            <div className="pt-20 min-w-full relative">
+            <div className="pt-12 min-w-full relative">
                 <Image src="/Home/home.png" className='w-full z-0  md:opacity-100 opacity-50' width={200} height={200} alt="logo">
                 </Image>
                 <img alt='' src='/Home/home-text.png' width={500} height={500} className='md:w-[45vw] md:h-[25vw] h-20 w-52 z-10 pt-0 md:absolute md:block md:top-60 md:left-20 hidden' />
-                <span className='absolute left-4 right-0 top-[60vw] font-extrabold md:hidden'>Transforming Healthcare through Innovative Technology</span>
+                <span className='absolute left-4 right-0 top-[52vw] font-extrabold md:hidden'>Transforming Healthcare through Innovative Technology</span>
             </div>
             <div className='flex md:flex-row flex-col md:gap-[10vw] w-half md:mx-6 mx-4 md:mt-28 md:mb-16 gap-4 text-sm mt-6'>
                 <span className='md:font-bold font-bold text-lg md:text-4xl lg:text-5xl'>What problem are we solving?</span>

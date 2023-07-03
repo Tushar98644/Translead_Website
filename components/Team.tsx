@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Team = () => {
     return (
-        <div className="pt-32 flex flex-col md:gap-10 gap-4 mx-4">
+        <div className="pt-24 md:pt-32 flex flex-col md:gap-10 gap-4 mx-4">
             <div className="md:font-extrabold font-bold text-lg md:text-3xl flex md:justify-center justify-start">
                 Our Advisory Board
             </div>

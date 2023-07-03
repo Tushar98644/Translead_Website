@@ -5,7 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Image from 'next/image';
 const Product = () => {
     return (
-        <div className="flex flex-col w-full pt-16 md:gap-10 gap-3 rounded-lg">
+        <div className="flex flex-col w-full md:pt-12 pt-4 md:gap-10 gap-3 rounded-lg">
             <div className="flex md:flex-row md:gap-96 md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
                 <div className="flex flex-col md:gap-5 gap-2">
                     <span className="md:text-4xl md:font-extrabold font-semibold text-base">Stand at <span className="text-red-600">Ease</span> </span>
