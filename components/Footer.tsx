@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Footer = () => {
     return (
@@ -7,8 +8,8 @@ const Footer = () => {
                 <div className="md:flex md:justify-between items-center flex-row gap-40">
                     <div className="mb-6 md:mb-0">
                         <Link href="/" className="items-center hidden md:flex">
-                            <img src="/logo.png" className="h-8 mr-3" alt="FlowBite Logo" />
-                        </Link>
+                            <Image src="/logo.png" width={200} height={200} className="h-8 mr-3" alt="FlowBite Logo" />
+                        </Link> 
                     </div>
                     <div className="flex w-full">
                         <div>
