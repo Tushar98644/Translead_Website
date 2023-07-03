@@ -5,7 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const About = () => {
     return (
-        <div className="flex flex-col gap-10 w-full pt-16">
+        <div className="flex flex-col md:gap-10 gap-6 w-full pt-16">
             <div className="md:flex flex-row gap-12 md:gap-48 px-12 py-8 mt-8 background hidden ">
                 <div className="flex flex-col gap-5">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
@@ -45,13 +45,13 @@ const About = () => {
 
                 </div>
             </div>
-            <div className='flex flex-col md:hidden gap-10 ml-7'>
-                <div className='text-xl font-extrabold' >
-                    When an how did it start?
+            <div className='flex flex-col md:hidden gap-5 ml-4'>
+                <div className='text-lg font-semibold' >
+                    When and how did it start?
                 </div>
                 <div className='flex flex-row gap-4' >
                     <div className='flex flex-col gap-2'>
-                        <div className='text-md' >
+                        <div className='text-sm' >
                             <span className='text-red-500'>2013</span>
                             <br />
                             Group of scientists at IISc and a group of geriatricians get together.
@@ -61,7 +61,7 @@ const About = () => {
                                 <line x1="0.5" x2="0.5" y2="50" stroke="black" />
                             </svg>
                         </div>
-                        <div className='text-md' >
+                        <div className='text-sm' >
                             <span className='text-red-500'>2023</span>
                             <br />
                             We have our product Stand at Eaze ready and out in the market.
@@ -73,9 +73,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col mx-8 md:hidden font-extrabold text-xl'>
+            <div className='flex flex-col mx-4 md:hidden font-semibold text-lg'>
                 <p>Let’s see what has the advisory board member have to say</p>
-                <div className='mt-10'>
+                <div className='mt-3'>
                     <iframe
                         width="auto"
                         height="auto"
@@ -93,9 +93,9 @@ const About = () => {
                 <Image src="/About/about-4.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/About/about-5.png" className='' width={100} height={100} alt="logo"></Image>
             </div>
-            <div className='md:mt-10 md:mx-20 mx-8 flex flex-col gap-5'>
-                <p className='md:text-4xl text-xl font-extrabold'>Funding and Support</p>
-                <p className='ms:text-lg'>Translead Medtech has secured significant funding and garnered substantial support from various sources, enabling the company to fuel its growth and innovative endeavors. Additionally, Translead Medtech has actively sought support from government grants, research institutions, and entrepreneurial networks to foster innovation and drive advancements in the field of medical technology.</p>
+            <div className='md:mt-10 md:mx-20 mx-4 flex flex-col gap-2'>
+                <p className='md:text-4xl text-lg font-semibold'>Funding and Support</p>
+                <p className='ms:text-lg text-sm'>Translead Medtech has secured significant funding and garnered substantial support from various sources, enabling the company to fuel its growth and innovative endeavors. Additionally, Translead Medtech has actively sought support from government grants, research institutions, and entrepreneurial networks to foster innovation and drive advancements in the field of medical technology.</p>
             </div>
             <div className='md:grid grid-cols-4 gap-10 md:px-20 items-center px-10 hidden'>
                 <Image src="/About/20.png" className='' width={200} height={200} alt="logo"></Image>
@@ -106,7 +106,7 @@ const About = () => {
                 <Image src="/About/25.png" className='' width={200} height={200} alt="logo"></Image>
                 <Image src="/About/26.png" className='' width={200} height={200} alt="logo"></Image>
             </div>
-            <Carousel showThumbs={false} dynamicHeight={false} useKeyboardArrows={true} autoPlay={false} infiniteLoop={false}>
+            <Carousel showThumbs={false} dynamicHeight={false} useKeyboardArrows={false} autoPlay={true} infiniteLoop={true}>
                 <div className='grid grid-cols-3 gap-4 mx-8 mb-4 md:hidden'>
                 <Image src="/About/21.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
                     <Image src="/About/22.png" className='shadow-lg' width={200} height={200} alt="logo"></Image>
