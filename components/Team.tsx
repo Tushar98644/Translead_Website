@@ -44,7 +44,7 @@ const Team = () => {
                         <span>Product Design Intern</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
-                            <Link href="/about">
+                            <Link href="/product_design">
                             <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>
@@ -61,7 +61,7 @@ const Team = () => {
                         <span>Asst. Product Engineer</span>
                         <span>Location: Bangalore, India</span>
                         <div className="flex justify-start">
-                            <Link href="/components/Product_engineer.tsx">
+                            <Link href="/product_engineer">
                             <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
                                 </Link>
                         </div>
