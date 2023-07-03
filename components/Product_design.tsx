@@ -58,25 +58,25 @@ const Product_Design = () => {
             <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-12">
                 <span className="md:text-3xl underline md:no-underline text-2xl font-bold">Requirements</span>
                 <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Basic experience with CAD </span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Presentation of concepts</span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Willingness to dive into design decision methodologies and framework creation</span>
                 </div><div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
                 </div><div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="h-4" />
+                    <FiberManualRecordIcon className="md:h-4 h-2" />
                     <span className="md:text-lg text-md font-regular">Will get to learn how to develop, test and correct design intuition</span>
                 </div>
             </div>
