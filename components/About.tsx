@@ -66,14 +66,11 @@ const About = () => {
                             We have our product Stand at Eaze ready and out in the market.
                         </div>
                     </div>
-                    <div className='flex flex-col gap-4 mr-4'>
+                    <div className='flex flex-col gap-8 mr-4'>
                         <Image src="/About/27.png" className='' width={200} height={200} alt="logo"></Image>
                         <Image src="/About/28.png" className='' width={200} height={200} alt="logo"></Image>
                     </div>
-
                 </div>
-
-
             </div>
             <div className='flex flex-col mx-8 md:hidden font-extrabold text-xl'>
                 <p>Let’s see what has the advisory board member have to say</p>
