@@ -14,7 +14,7 @@ const Team = () => {
             </div>
             <div className="grid md:grid-cols-3 grid-cols-2 md:mx-28 ml-12 mr-8 gap-10">
                 <div className="flex flex-col gap-6">
-                    <Image src="/Team/team-1.png" width={300} height={300} alt="logo"></Image>
+                    <Image src="/Team/team-1.png" width={320} height={350} alt="logo"></Image>
                     <p className="text-2xl font-extrabold">Prof.G .K Ananthasuresh</p>
                     <p className="text-lg"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
                 </div>
