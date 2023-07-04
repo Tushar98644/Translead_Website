@@ -8,7 +8,7 @@ const Product = () => {
         <div className="flex flex-col w-full md:pt-12 pt-4 md:gap-10 gap-3 rounded-lg">
             <div className="flex md:flex-row md:gap-96 md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
                 <div className="flex flex-col md:gap-5 gap-2">
-                    <span className="md:text-4xl md:font-extrabold font-semibold text-base">Stand at <span className="text-red-600">Ease</span> </span>
+                    <span className="md:text-4xl md:font-extrabold font-semibold text-lg">Stand at <span className="text-red-600">Ease</span> </span>
                     <span className='md:flex flex-row gap-3 text-lg hidden'>
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M9.36249 26.1718C6.77025 24.9002 4.68396 22.7896 3.4424 20.1829C2.20083 17.5761 1.87689 14.6262 2.52319 11.8121C3.16948 8.998 4.74805 6.48501 7.00257 4.68116C9.2571 2.87732 12.0552 1.88854 14.9425 1.87538C17.8298 1.86222 20.6368 2.82545 22.9077 4.60867C25.1785 6.39189 26.7799 8.89038 27.4519 11.6985C28.1238 14.5065 27.8267 17.4593 26.609 20.0773C25.3912 22.6952 23.3243 24.8247 20.7437 26.1199" stroke="#FB1010" stroke-linecap="round" stroke-linejoin="round" />

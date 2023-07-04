@@ -94,11 +94,11 @@ const Product_Engineer = () => {
                 </div>
                 <div className="flex flex-row gap-2 items-center ">
                     <div className="bg-black w-2.5 h-1.5 rounded-full md:hidden">
-                    </div> 
+                    </div>
                     <div className="hidden md:block">
                         <FiberManualRecordIcon className="text-black md:w-3 w-1" />
                     </div>
-                                       <span className="md:text-lg text-sm font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
+                    <span className="md:text-lg text-sm font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
                 </div>
                 <div className="flex flex-row gap-2 items-center">
                     <div className="bg-black w-2 h-1.5 rounded-full md:hidden">
@@ -194,8 +194,10 @@ const Product_Engineer = () => {
                     </form>
                     <div className='text-start mt-12 md:mx-24 md:text-lg'>
                         <Link href="/team">
-                            <ArrowBackIosIcon className="text-black md:w-3 w-1" />
-                            <ArrowBackIosIcon className="text-black md:w-3 w-1" />
+                            <div className="">
+                                <ArrowBackIosIcon className="" />
+                                <ArrowBackIosIcon className="" />
+                            </div>
                             Go back to view the Open Positions
                         </Link>
                     </div>
