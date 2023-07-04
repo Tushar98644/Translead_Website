@@ -43,7 +43,7 @@ const Product_Design = () => {
                             <line y1="1" x2="81" y2="1" stroke="black" stroke-width="2" />
                         </svg>
                     </div>
-                    <div className="items-center flex md:hidden">
+                    <div className="items-start mt-5 flex md:hidden">
                         <svg width="17" height="2" viewBox="0 0 17 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="1" x2="17" y2="1" stroke="black" stroke-width="2" />
                         </svg>
