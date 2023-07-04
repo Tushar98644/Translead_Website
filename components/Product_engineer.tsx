@@ -192,7 +192,7 @@ const Product_Engineer = () => {
                             <button type="submit" className="text-white bg-red-500 hover:bg-red-600 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-20 py-2.5 text-center">Submit your application</button>
                         </div>
                     </form>
-                    <div className='text-start mt-12 md:mx-24 md:text-lg'>
+                    <div className='text-start md:mt-12 mt-6 md:mx-24 md:text-lg'>
                         <Link href="/team">
                             <ArrowBackIosIcon className="text-black md:w-5 w-3" />
                             <ArrowBackIosIcon className="text-black md:w-5 w-3" />
