@@ -13,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className="flex w-full">
                         <div>
-                            <div className="mb-6 text-sm font-semibold text-black uppercase flex flex-row gap-2 ml-5">
+                            <div className="mb-6 md:text-sm text-xs font-semibold text-black uppercase flex flex-row gap-2 ml-5">
                                 <div>
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_1509_3020)">
@@ -28,7 +28,7 @@ const Footer = () => {
                                 </div>
                                 <div>Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka</div>
                             </div>
-                            <ul className="text-black font-medium ml-5">
+                            <ul className="text-black font-medium ml-5 text-sm md:text-base">
                                 <div className="flex md:flex-row md:gap-10 gap-2 flex-col">
                                     <li className="mb-4">
                                         <a href="https://flowbite.com/" className="hover:underline flex flex-row gap-2">

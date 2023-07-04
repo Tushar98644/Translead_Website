@@ -7,7 +7,7 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Product_Design = () => {
     return (
-        <div className="pt-24 ">
+        <div className="pt-24 md:pt-32">
             <div className="hidden md:flex flex-col gap-10 ">
                 <div className="font-extrabold text-3xl flex justify-center">
                     Our Advisory Board

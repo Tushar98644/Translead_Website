@@ -14,10 +14,10 @@ const Contact = () => {
 
     
     return (
-        <div className="pt-24 flex flex-col sm:mx-24 mx-6 gap-4">
+        <div className="md:pt-36 pt-24 flex flex-col sm:mx-10 mx-6 gap-4">
             <div className="flex md:flex-row flex-col md:gap-20 gap-8">
                 <div className="flex flex-col gap-2">
-                    <div className="sm:font-extrabold font-bold sm:text-3xl text-lg  flex justify-start">
+                    <div className="sm:font-extrabold font-bold sm:text-4xl text-lg  flex justify-start">
                         Contact
                     </div>
                     <div className="text-sm sm:text-lg">
@@ -49,19 +49,19 @@ const Contact = () => {
                     </form>
                 </div>
             </div>
-            <div className="flex md:flex-row gap-10 flex-col mt-10">
+            <div className="flex md:flex-row md:gap-20 gap-6 flex-col mt-10">
                 <div className="flex flex-col gap-2">
-                    <div className="sm:font-extrabold font-bold sm:text-3xl text-lg  flex justify-start">
+                    <div className="sm:font-extrabold font-bold sm:text-4xl text-lg  flex justify-start">
                         Our offices
                     </div>
-                    <div className="sm:text-xl text-base font-medium">
+                    <div className="sm:text-2xl text-base font-medium">
                         Bangalore
                     </div>
-                    <div className="sm:text-lg text-sm">
+                    <div className="sm:text-xl text-sm">
                         Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka
                     </div>
                 </div>
-                <div className='w-[90vw] h-[50vw] md:h-[30vw]'>
+                <div className='w-[90vw] h-[50vw] md:h-[30vw] md:w-[150vw]'>
                     <Map/>
                 </div>
             </div>

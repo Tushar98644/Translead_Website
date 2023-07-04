@@ -7,90 +7,119 @@ import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 
 const Product_Engineer = () => {
     return (
-        <div className="pt-24">
-            <div className="hidden md:flex flex-col gap-10 ">
+        <div className="pt-16 md:pt-32">
+            <div className="hidden md:flex flex-col gap-10">
                 <div className="font-extrabold text-3xl flex justify-center">
                     Our Advisory Board
                 </div>
-                <div className="text-xl mx-20">
+                <div className="text-xl mx-10">
                     We are extremely grateful to the learned professors who have helped and guided us on several occasions, enriching us with their knowledge and ideologies.
                 </div>
-                <div className="grid md:grid-cols-3 grid-cols-2 md:mx-28 ml-12 mr-8 gap-10">
-                    <div className="flex flex-col gap-6">
+                <div className="grid md:grid-cols-3 grid-cols-2 mx-20 gap-36">
+                    <div className="flex flex-col gap-0">
                         <Image src="/Team/team-1.png" width={300} height={300} alt="logo"></Image>
-                        <p className="text-2xl font-extrabold">Prof.G .K Ananthasuresh</p>
-                        <p className="text-lg"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
+                        <p className="text-xl font-extrabold mt-6">Prof.G .K Ananthasuresh</p>
+                        <p className="text-base"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
                     </div>
-                    <div className="flex flex-col gap-6 mt-2">
+                    <div className="flex flex-col gap-0">
                         <img src="/Team/team-2.png" width={350} height={350} alt="logo" />
-                        <p className="text-2xl font-extrabold">Dr. Medha Rao</p>
-                        <p className="text-lg"> Principal and Dean, M.S. Ramaiah Medical College</p>
+                        <p className="text-xl font-extrabold mt-6">Dr. Medha Rao</p>
+                        <p className="text-base"> Principal and Dean, M.S. Ramaiah Medical College</p>
                     </div>
-                    <div className="flex flex-col gap-6">
+                    <div className="flex flex-col gap-0">
                         <Image src="/Team/team-3.png" className='' width={300} height={300} alt="logo"></Image>
-                        <p className="text-2xl font-extrabold">Dr. Pretesh. R. Kiran</p>
-                        <p className="text-lg"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
+                        <p className="text-xl font-extrabold mt-6">Dr. Pretesh. R. Kiran</p>
+                        <p className="text-base"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
                     </div>
                 </div>
             </div>
-            <div className="font-extrabold md:text-3xl text-xl flex md:justify-center mx-12 mt-10">
+            <div className="md:font-extrabold font-bold md:text-3xl text-lg flex md:justify-center md:mx-12 mx-6 md:mt-10 mt-6">
                 Want to be a part of this revolution? We’re hiring!
             </div>
-            <div className="flex md:flex-row flex-col md:pb-12 mx-12 md:gap-[38vw] gap-12 md:mx-28 mt-10">
+            <div className="flex md:flex-row flex-col md:pb-12 mx-6 md:gap-[38vw] gap-12 md:mx-28 md:mt-10 mt-2">
                 <div className="flex flex-row gap-4">
-                    <div className="flex items-center">
+                    <div className="md:flex items-center hidden">
                         <svg width="40" height="2" viewBox="0 0 81 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="1" x2="81" y2="1" stroke="black" stroke-width="2" />
                         </svg>
                     </div>
-                    <div className="flex flex-col gap-2">
-                        <span className="font-bold text-xl">Product Engineer Intern</span>
-                        <span>Location: Bangalore, India</span>
+                    <div className="items-center flex md:hidden">
+                        <svg width="17" height="2" viewBox="0 0 17 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line y1="1" x2="17" y2="1" stroke="black" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <div className="flex flex-col gap-0 md:gap-1">
+                        <span className="font-bold md:text-2xl text-base">Product Engineer Intern</span>
+                        <span className="text-sm md:text-lg font-normal">Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
-                                <button className="px-2 py-1 rounded-md bg-red-600 text-white">Full-Time</button>
+                                <button className="md:px-2 md:py-1 px-2 py-0.5 md:text-base text-sm rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div className="flex flex-col md:pb-12 mx-6 md:gap-[1.6vw] gap-2 md:mx-28 md:mt-2 mt-6">
+                <span className="md:text-3xl underline md:no-underline text-base font-bold">Requirements</span>
+                <div className="flex flex-row gap-2 items-center">
+                    <div className="bg-black w-1.5 h-1.5 rounded-full md:hidden">
+                    </div>
+                    <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>
+                    <span className="md:text-lg text-sm font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
+                </div>
 
+                <div className="flex flex-row gap-2 items-center">
+                    <div className="bg-black w-1.5 h-1.5 rounded-full md:hidden ">
+                    </div>       <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>              <span className="md:text-lg text-sm font-regular">Basic experience with CAD </span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <div className="bg-black w-1.5 h-1.5 rounded-full md:hidden">
+                    </div>
+                    <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>
+                    <span className="md:text-lg text-sm font-regular">Presentation of concepts</span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <div className="bg-black w-[2.5vw] h-1.5 rounded-full md:hidden">
+                    </div>
+                    <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>
+                    <span className="md:text-lg text-sm font-regular">Willingness to dive into design decision methodologies and framework creation</span>
+                </div>
+                <div className="flex flex-row gap-2 items-center ">
+                    <div className="bg-black w-2.5 h-1.5 rounded-full md:hidden">
+                    </div> 
+                    <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>
+                                       <span className="md:text-lg text-sm font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
+                </div>
+                <div className="flex flex-row gap-2 items-center">
+                    <div className="bg-black w-2 h-1.5 rounded-full md:hidden">
+                    </div>
+                    <div className="hidden md:block">
+                        <FiberManualRecordIcon className="text-black md:w-3 w-1" />
+                    </div>
+                    <span className="md:text-lg text-sm font-regular">Will get to learn how to develop, test and correct design intuition</span>
                 </div>
             </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-12">
-                <span className="md:text-3xl underline md:no-underline text-2xl font-bold">Requirements</span>
-                <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Copy In or beyond 4th semester of BTech/Bdes </span>
-                </div>
-                <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Basic experience with CAD </span>
-                </div>
-                <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Presentation of concepts</span>
-                </div>
-                <div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Willingness to dive into design decision methodologies and framework creation</span>
-                </div><div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Willing to talk to users, distributors, etc. and carry out market research both on and off field </span>
-                </div><div className="flex flex-row gap-2 items-center">
-                    <FiberManualRecordIcon className="md:h-4 h-2" />
-                    <span className="md:text-lg text-md font-regular">Will get to learn how to develop, test and correct design intuition</span>
-                </div>
+            <div className="flex flex-col md:pb-12 mx-6 md:gap-[1vw] gap-2 md:mx-28 md:mt-2 mt-4">
+                <span className="md:text-3xl text-base font-bold md:no-underline underline">PLACE</span>
+                <span className="md:text-xl text-sm font-regular">Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare TechnologyBusiness Incubator, IISc, Bangalore</span>
             </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-12">
-                <span className="md:text-3xl text-2xl font-bold md:no-underline underline">PLACE</span>
-                <span className="md:text-xl text-lg font-regular">Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare TechnologyBusiness Incubator, IISc, Bangalore</span>
-            </div>
-            <div className="flex flex-col md:pb-12 mx-12 md:gap-[2vw] gap-4 md:mx-28 md:mt-2 mt-8">
-                <span className="md:text-3xl text-2xl md:no-underline underline font-bold">CONTACT</span>
-                <span className="md:text-xl text-lg font-regular">Email: info@transleadmedtech.com <br />
+            <div className="flex flex-col md:pb-12 mx-6 md:gap-[1vw] gap-2 md:mx-28 md:mt-2 mt-4">
+                <span className="md:text-3xl text-base md:no-underline underline font-bold">CONTACT</span>
+                <span className="md:text-xl text-sm font-regular">Email: info@transleadmedtech.com <br />
                     Phone: +91-86181 13553
                 </span>
             </div>
-            <div className="mt-10 mx-32 hidden md:block">
+            <div className="mt-4 mx-32 hidden md:block">
                 <form >
                     <div className="grid grid-cols-2 gap-20">
                         <div className="mb-12">
@@ -128,7 +157,7 @@ const Product_Engineer = () => {
                     </div>
                 </form>
             </div>
-            <div className=" mx-8 mt-10">
+            <div className="mx-6 mt-4">
                 <div className='w-full'>
                     <form className="md:hidden">
                         <div className="grid md:grid-cols-2 md:gap-6">
@@ -165,8 +194,8 @@ const Product_Engineer = () => {
                     </form>
                     <div className='text-start mt-12 md:mx-24 md:text-lg'>
                         <Link href="/team">
-                            <ArrowBackIosIcon className="text-black md:w-3 w-2" />
-                            <ArrowBackIosIcon className="text-black md:w-3 w-2" />
+                            <ArrowBackIosIcon className="text-black md:w-3 w-1" />
+                            <ArrowBackIosIcon className="text-black md:w-3 w-1" />
                             Go back to view the Open Positions
                         </Link>
                     </div>
