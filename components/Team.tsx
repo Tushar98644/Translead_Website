@@ -76,7 +76,7 @@ const Team = () => {
                         <span className="font-semibold text-base md:text-2xl">Asst. Product Engineer</span>
                         <span className="text-sm md:text-xl">Location: Bangalore, India</span>
                         <div className="flex justify-start">
-                            <Link href="/product_design">
+                            <Link href="/product_engineer">
                                 <button className="md:px-2 md:py-1 px-2 py-0.5 md:text-base text-sm rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>

@@ -49,7 +49,7 @@ const Product_Design = () => {
                         </svg>
                     </div>
                     <div className="flex flex-col gap-0 md:gap-1">
-                        <span className="font-bold md:text-2xl text-base">Product Design Intern</span>
+                        <span className="font-bold md:text-2xl text-base mt-2 md:mt-0">Product Design Intern</span>
                         <span className="text-sm md:text-lg font-normal">Location: Bangalore, India</span>
                         <div className="flex justify-start">
                             <Link href="/product_design">
