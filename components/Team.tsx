@@ -12,21 +12,22 @@ const Team = () => {
                 We are extremely grateful to the learned professors who have helped and guided us on several occasions, enriching us with their knowledge and ideologies.
             </div>
             <div className="md:grid md:grid-cols-3 flex flex-col md:mx-20 items-center md:gap-36 gap-8">
-                <div className="flex flex-col gap-0">
+                <div className="flex flex-col items-center gap-0">
                     <Image src="/Team/team-1.png" width={320} height={350} alt="logo"></Image>
                     <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Prof.G .K Ananthasuresh</p>
                     <p className="md:text-base text-xs"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
                 </div>
-                <div className="flex flex-col  gap-0">
-                    <Image src="/Team/team-2.png" width={350} height={350} alt="logo" />
+                <div className="flex flex-col items-center gap-0">
+                    <Image src="/Team/team-2.png" width={320} height={350} alt="logo" />
                     <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Medha Rao</p>
                     <p className="md:text-base text-xs"> Principal and Dean, M.S. Ramaiah Medical College</p>
                 </div>
-                <div className="flex flex-col  gap-0">
+                <div className="flex flex-col items-center gap-0">
                     <Image src="/Team/team-3.png" width={320} height={350} alt="logo"></Image>
-                    <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Pretesh. R. Kiran</p>
-                    <p className="md:text-base text-xs"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
+                    <p className="text-center md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Pretesh. R. Kiran</p>
+                    <p className="text-center md:text-base text-xs"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
                 </div>
+
             </div>
             <div className="md:font-extrabold font-bold md:text-3xl text-lg flex md:justify-center md:mx-12 md:mt-4 mt-2 mx-4">
                 Want to be a part of this revolution? We’re hiring!
@@ -47,14 +48,14 @@ const Team = () => {
                         <span className="font-semibold text-base md:text-2xl">Product Design Intern</span>
                         <span className="text-sm md:text-xl">Location: Bangalore, India</span>
                         <div className="flex justify-start">
-                        <Link href="/product_design">
+                            <Link href="/product_design">
                                 <button className="md:px-2 md:py-1 px-2 py-0.5 md:text-base text-sm rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-row gap-4">
-                <div className="items-center flex md:hidden">
+                    <div className="items-center flex md:hidden">
                         <svg width="17" height="2" viewBox="0 0 17 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <line y1="1" x2="17" y2="1" stroke="black" stroke-width="2" />
                         </svg>
@@ -68,7 +69,7 @@ const Team = () => {
                         <span className="font-semibold text-base md:text-2xl">Asst. Product Engineer</span>
                         <span className="text-sm md:text-xl">Location: Bangalore, India</span>
                         <div className="flex justify-start">
-                        <Link href="/product_design">
+                            <Link href="/product_design">
                                 <button className="md:px-2 md:py-1 px-2 py-0.5 md:text-base text-sm rounded-md bg-red-600 text-white">Full-Time</button>
                             </Link>
                         </div>
