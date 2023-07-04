@@ -9,11 +9,11 @@ const About = () => {
             <div className="md:flex flex-row gap-48 px-8 py-8 mt-8 background hidden ">
                 <div className="flex flex-col gap-3">
                     <span className="text-4xl font-extrabold">Our <span className="text-red-600">Mission</span> </span>
-                    <span>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
+                    <span className='text-base'>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
                 </div>
                 <div className="flex flex-col gap-3 mx-4 items-end">
                     <span className="text-4xl font-extrabold items-end ml-[30vw]">Our <span className="text-red-600">Vision</span> </span>
-                    <span className='ml-5'>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
+                    <span className='ml-5 text-base'>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
             <div className='flex flex-col md:hidden gap-2 mt-20 mx-4'>
@@ -93,7 +93,7 @@ const About = () => {
                 <Image src="/About/about-4.png" className='' width={100} height={100} alt="logo"></Image>
                 <Image src="/About/about-5.png" className='' width={100} height={100} alt="logo"></Image>
             </div>
-            <div className='md:mt-10 md:mx-8 mx-4 flex flex-col gap-2'>
+            <div className='md:mt-10 md:mx-8 mx-4 flex flex-col gap-2 md:gap-4'>
                 <p className='md:text-4xl  text-lg font-semibold'>Funding and Support</p>
                 <p className='md:text-lg text-sm'>Translead Medtech has secured significant funding and garnered substantial support from various sources, enabling the company to fuel its growth and innovative endeavors. Additionally, Translead Medtech has actively sought support from government grants, research institutions, and entrepreneurial networks to foster innovation and drive advancements in the field of medical technology.</p>
             </div>
