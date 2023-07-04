@@ -13,7 +13,7 @@ const About = () => {
                 </div>
                 <div className="flex flex-col gap-3 mx-4 items-end">
                     <span className="text-4xl font-extrabold items-end ml-[30vw]">Our <span className="text-red-600">Vision</span> </span>
-                    <span>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
+                    <span className='ml-5'>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
             <div className='flex flex-col md:hidden gap-2 mt-20 mx-4'>
