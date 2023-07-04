@@ -13,19 +13,26 @@ const Team = () => {
             </div>
             <div className="md:grid md:grid-cols-3 flex flex-col md:mx-20 items-center md:gap-36 gap-8">
                 <div className="flex flex-col items-center gap-0">
-                    <Image src="/Team/team-1.png" width={320} height={350} alt="logo"></Image>
+                    <Image src="/Team/team-1.png"
+                        className="w-72 h-72 sm:w-64 sm:h-70 md:w-80 md:h-48 lg:w-80 lg:h-80"
+                        alt="logo" width={400} height={400}
+                    />
                     <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Prof.G .K Ananthasuresh</p>
-                    <p className="md:text-base text-xs"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
+                    <p className="md:text-base text-xs mx-4"> Dean, Division of Mechanical Sciences, IISc, Bangalore</p>
                 </div>
                 <div className="flex flex-col items-center gap-0">
-                    <Image src="/Team/team-2.png" width={320} height={350} alt="logo" />
-                    <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Medha Rao</p>
-                    <p className="md:text-base text-xs"> Principal and Dean, M.S. Ramaiah Medical College</p>
+                <Image src="/Team/team-2.png"
+                        className="w-72 h-72 sm:w-64 sm:h-70 md:w-80 md:h-48 lg:w-80 lg:h-80"
+                        alt="logo" width={400} height={400}
+                    />                    <p className="md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Medha Rao</p>
+                    <p className="md:text-base text-xs mx-4"> Principal and Dean, M.S. Ramaiah Medical College</p>
                 </div>
                 <div className="flex flex-col items-center gap-0">
-                    <Image src="/Team/team-3.png" width={320} height={350} alt="logo"></Image>
-                    <p className="text-center md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Pretesh. R. Kiran</p>
-                    <p className="text-center md:text-base text-xs"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
+                <Image src="/Team/team-3.png"
+                        className="w-72 h-72 sm:w-64 sm:h-70 md:w-80 md:h-48 lg:w-80 lg:h-80"
+                        alt="logo" width={400} height={400}
+                    />                    <p className="text-center md:text-xl md:font-extrabold text-sm font-semibold mt-8">Dr. Pretesh. R. Kiran</p>
+                    <p className="text-center md:text-base text-xs mx-4"> Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
                 </div>
 
             </div>
