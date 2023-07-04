@@ -49,7 +49,7 @@ const Product = () => {
                     <Image src="/Product/product.png" className='' width={400} height={400} alt="logo"></Image>
                 </div>
             </div>
-            <div className="flex flex-col md:ml-12 md:mr-20 md:gap-2 mx-6">
+            <div className="flex flex-col md:mx-8 md:gap-2 mx-6">
                 <span className="md:text-4xl text-base font-bold md:font-extrabold md:ml-0">
                     How does ‘Stand at Ease Work’?
                 </span>
@@ -86,7 +86,7 @@ const Product = () => {
                     <span className='text-lg'>On the other hand, when standing up, the seat pushes the user, effectively offloading the arms and minimizing muscle activation. Additionally, the seat and mechanism work together to provide resistance against sudden drops, offering protection to the hips and reducing activation of the thigh muscles. With these thoughtful design features, the Stand At Eaze chair prioritizes user comfort, safety, and overall well-being.</span>
                 </div>
             </div>
-            <div className="md:flex flex-col ml-12 mr-20 gap-8 mt-5 hidden">
+            <div className="md:flex flex-col md:mx-8 gap-8 mt-5 hidden">
                 <span className="text-3xl font-extrabold">
                     Let’s see the process which went behind making the product                </span>
                 <div className="flex flex-row gap-12 flex-1 items-start pt-8">
