@@ -194,10 +194,8 @@ const Product_Engineer = () => {
                     </form>
                     <div className='text-start mt-12 md:mx-24 md:text-lg'>
                         <Link href="/team">
-                            <div className="">
-                                <ArrowBackIosIcon className="" />
-                                <ArrowBackIosIcon className="" />
-                            </div>
+                            <ArrowBackIosIcon className="text-black md:w-5 w-3" />
+                            <ArrowBackIosIcon className="text-black md:w-5 w-3" />
                             Go back to view the Open Positions
                         </Link>
                     </div>
