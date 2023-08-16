@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
-import { Carousel } from 'react-responsive-carousel';
+// import { Carousel } from 'react-responsive-carousel';
 
 const About = () => {
     return (
@@ -95,9 +95,6 @@ const About = () => {
                             <ul>Compliant Hinge Mechanism</ul>
                         </div>
                     </div>
-
-
-
                 </div>
                 <div className='h-full w-full' style={{ backgroundImage: "url(/website.png)" }}>
                     {/* <img src={'/website.png'} alt={''} className='h-full w-full rotate-180 opacity-70'  height={300} width={300}/>      */}
