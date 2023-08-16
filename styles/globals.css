@@ -2,10 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-.background {
-  background-color: #f5f5f5;
+.about{
+  background-color: rgba(245, 245, 247, 1);
 }
 
-.image{
-    opacity: 0.5;
+.about-bg{
+  background-image: url('/website.png');
+  transform: rotate(180);
 }
