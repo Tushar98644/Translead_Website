@@ -6,11 +6,11 @@ import Image from 'next/image';
 const Product = () => {
     return (
         <div className="flex flex-col w-full md:pt-12 pt-4 md:gap-10 gap-3 rounded-lg">
-            <div className="flex md:flex-row md:gap-96 md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
+            <div className="flex md:flex-row md:gap- md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
                 <div className="flex flex-col md:gap-5 gap-2">
                     <span className="md:text-4xl md:font-extrabold font-semibold text-lg">Stand at <span className="text-red-600">Ease</span></span>
                     <div className='flex flex-row gap-12 mt-4'>
-                        <span className='md:flex flex-row gap-3 text-lg hidden justify-center'>
+                        <span className='md:flex flex-row gap-3 text-xl hidden justify-center'>
                             <div>
                                 <svg width="70" height="60" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="36.5" cy="36.5" r="35.5" fill="white" stroke="#18ACB6" stroke-width="2" />
@@ -20,7 +20,7 @@ const Product = () => {
                                     <path d="M32.0442 42.9518L29.0174 46.6381C27.5678 48.3158 29.6603 49.7872 31.195 48.3355L34.1596 44.6005L35.1322 40.9505L36.6969 42.5142L37.7401 47.9135C38.4297 49.416 40.6725 49.3341 40.5989 47.4013L39.0539 41.6318L36.838 37.7951L38.0792 33.1652L39.4635 33.5364C39.4437 33.6946 39.4712 33.8551 39.5427 33.9976C39.6141 34.1401 39.7262 34.2582 39.8648 34.3369C40.3469 34.5941 43.8134 35.6559 43.8134 35.6559C45.9941 36.3258 46.2398 34.1306 44.477 33.6194L41.5913 32.8448L40.1624 30.4661L37.8407 28.386L34.2913 28.303L29.2746 31.3319L27.4112 36.3113C26.9996 37.7028 28.9946 38.0647 29.5463 36.9832C29.8138 36.5083 31.1618 33.3 31.1618 33.3L34.0901 31.8462L32.6581 38.4142L32.0442 42.9518Z" stroke="#FB1010" stroke-linecap="round" stroke-linejoin="round" />
                                 </svg>
                             </div>
-                            <span>Can be set to any height and weight of a person.</span>
+                            <span className='text-xl'>Can be set to any height and weight of a person.</span>
                         </span>
                         <span className='md:flex flex-row gap-3 text-lg hidden justify-center'>
                             <div>
@@ -33,8 +33,8 @@ const Product = () => {
                             <span>Assistive chair for the elderly who suffer from knee joint problem.</span>
                         </span>
                     </div>
-                    <div className='flex flex-row gap-4 mt-4'>
-                        <span className='md:flex flex-row gap-3 text-lg hidden justify-center'>
+                    <div className='flex flex-row gap-28 mt-4'>
+                        <span className='md:flex flex-row gap-3 text-xl hidden justify-center items-center'>
                             <div>
                                 <svg width="70" height="60" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="36.5" cy="36.5" r="35.5" fill="white" stroke="#18ACB6" stroke-width="2" />
@@ -51,7 +51,7 @@ const Product = () => {
                             </div>
                             <span>No power connection necessary.</span>
                         </span>
-                        <span className='md:flex flex-row gap-3 text-lg hidden justify-center'>
+                        <span className='md:flex flex-row gap-3 text-xl hidden justify-center items-center'>
                             <div>
                                 <svg width="70" height="60" viewBox="0 0 76 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M74.4567 36.5C74.4567 56.0752 58.0443 72 37.7284 72C17.4124 72 1 56.0752 1 36.5C1 16.9248 17.4124 1 37.7284 1C58.0443 1 74.4567 16.9248 74.4567 36.5Z" fill="white" stroke="#18ACB6" stroke-width="2" />
