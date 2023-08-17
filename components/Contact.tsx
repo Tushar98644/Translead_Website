@@ -26,8 +26,8 @@ const Contact = () => {
                         <div className="text-xl font-normal mt-2">
                             For any inquiries about us and the work we do, please use the form on the right and drop a note to us. We will be sure to get back to you as soon as we can.
                         </div>
-                        <div>
-                            <Image src='/contact/contact.gif' alt='image' height={500} width={500} />
+                        <div className='h-[300px] w-[400px] mt-8 items-end ml-[250px] flex'>
+                            <img src='/contact/contact.gif' alt='image'/>
                         </div>
                     </div>
                     <div className='w-full'>
@@ -62,8 +62,7 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <Image src='/website.png' alt='image' height={1300} width={1300} className='absolute opacity-40 -z-10 mx-0 md:top-[590px] top-[870px] rotate-180 w-full left-0' />
-                <div className="flex md:flex-row md:gap-20 gap-6 flex-col mt-10 ">
+                <div className="flex md:flex-row md:gap-20 gap-6 flex-col contact-bg">
                     <div className="flex flex-col gap-2">
                         <div className=" font-black text-4xl flex justify-start">
                             Our offices
