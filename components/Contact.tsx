@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
 import { Fragment, useState } from 'react';
 import Map from './Map'
@@ -20,13 +21,13 @@ const Contact = () => {
             <div className="md:pt-36 pt-24 flex flex-col sm:mx-10 mx-6 gap-4">
                 <div className="flex md:flex-row flex-col md:gap-20 gap-8">
                     <div className="flex flex-col gap-2">
-                        <div className="sm:font-extrabold font-bold text-4xl  flex justify-start">
+                        <div className="sm:font-extrabold font-bold md:text-4xl text-2xl  flex justify-start">
                             Contact
                         </div>
-                        <div className="text-xl font-normal mt-2">
+                        <div className="md:text-xl text-base font-normal mt-2">
                             For any inquiries about us and the work we do, please use the form on the right and drop a note to us. We will be sure to get back to you as soon as we can.
                         </div>
-                        <div className='h-[300px] w-[400px] mt-8 items-end ml-[250px] flex'>
+                        <div className='h-[300px] md:mb-0 mb-[-130px] md:w-[400px] md:mt-8 items-end md:ml-[250px] flex'>
                             <img src='/contact/contact.gif' alt='image'/>
                         </div>
                     </div>
@@ -63,14 +64,14 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="flex md:flex-row md:gap-20 gap-6 flex-col contact-bg">
-                    <div className="flex flex-col gap-2">
-                        <div className=" font-black text-4xl flex justify-start">
+                    <div className="flex flex-col gap-2 md:mt-0 mt-12">
+                        <div className=" md:font-black  font-semibold md:text-4xl text-2xl flex md:justify-start justify-center">
                             Our offices
                         </div>
-                        <div className="text-xl font-medium mt-12 mb-1">
+                        <div className="md:text-xl text-base flex font-medium md:mt-12 md:mb-1 mb-4 justify-center md:justify-start">
                             BANGALORE , INDIA
                         </div>
-                        <div className="text-lg font-light">
+                        <div className="md:text-lg text-base font-light">
                             Translead Medtech Pvt Ltd,Incubated @ CPDMED TBI,MedTech & Geriatric Healthcare Technology Business Incubator @ Centre for Product Design & Manufacturing (CPDM),Raman Building,Indian Institute of Science (IISc),Bangalore-560012,Karnataka
                         </div>
                     </div>

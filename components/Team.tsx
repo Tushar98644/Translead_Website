@@ -5,7 +5,7 @@ import Link from "next/link";
 const Team = () => {
     return (
         <div className="pt-24 md:pt-32 flex flex-col md:gap-10 gap-4">
-            <div className="md:font-extrabold font-bold text-lg md:text-4xl flex md:justify-center justify-center contact-bg">
+            <div className="md:font-extrabold font-bold text-lg md:text-4xl flex md:justify-center justify-center team-bg-1">
                 Our Advisors
             </div>
             <div className="text-xl mx-48 text-center hidden md:block">
@@ -98,7 +98,7 @@ const Team = () => {
                 </div>
 
             </div>
-            <div className="font-bold flex md:text-[40px] text-xl justify-center items-center text-center md:pt-20 pt-4 team-bg">
+            <div className="font-bold flex md:text-[40px] text-xl justify-center md:mx-0 mx-4 items-center text-center md:pt-20 pt-8 team-bg-2">
                 Want to be a part of this revolution? We’re hiring!
             </div>
             <div className="flex md:flex-row flex-col md:pb-12 md:gap-[200px] gap-4 md:mx-[240px] justify-center items-center mx-4">
@@ -126,10 +126,10 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className="font-medium md:font-bold md:text-[26px] text-base flex justify-center flex justify-start md:mt-0 mt-5 mx-4">
+            <div className="font-medium md:font-bold md:text-[26px] text-base flex justify-center text-center md:mt-0 mt-5 mx-4">
                 <span>Could not find your position? Submit this form and we will get back to you sure!</span>
             </div>
-            <div className="mt-5 flex ml-[240px] mr-[150px] hidden md:block">
+            <div className="mt-5 md:flex hidden ml-[280px] mr-[150px]">
                 <form >
                     <div className="grid grid-cols-2 gap-1">
                         <div className="mb-8">
