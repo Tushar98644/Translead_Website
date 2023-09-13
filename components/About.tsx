@@ -123,7 +123,7 @@ const About = () => {
                 <div className='h-full w-full about-bg-1 md:hidden flex'>
                     <img src="/About/Sitting GIF.gif" className='h-full w-full' alt="inner-image" />
                 </div>
-                <div className='h-full w-full md:block hidden' style={{backgroundImage: "url(/website.png)"}}>
+                <div className='h-full w-full md:block hidden' style={{backgroundImage: "url(/website.png)",marginTop:"-40px",opacity:"0.7"}}>
                     <img src="/About/Sitting GIF.gif" className='h-full w-full' alt="inner-image" />
                 </div>
             </div>

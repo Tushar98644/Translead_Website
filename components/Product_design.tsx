@@ -200,8 +200,8 @@ const Product_Design = () => {
                         <input type="text" className="shadow-sm bg-gray-50 border border-[#64AFAC] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block md:w-11/12 w-full md:p-4 p-2.5" placeholder="What is your notice period?" required />
                     </div> 
 
-                    <div className="text-center mt-8">
-                        <button type="submit" className="text-white bg-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-20 py-2.5 text-center">Submit Your application</button>
+                    <div className="text-center mt-8 md:mr-20">
+                        <button type="submit" className="text-white bg-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-20 py-2.5 text-center o">Submit Your application</button>
 
                     </div>
                 </form>
