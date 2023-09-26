@@ -8,7 +8,7 @@
 
 .contact-bg::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
