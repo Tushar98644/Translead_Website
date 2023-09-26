@@ -24,7 +24,7 @@
 
 .team-bg-1::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -40,7 +40,7 @@
 
 .team-bg-2::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@
 
 .about-bg-1::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 
 .role-bg-1::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -128,7 +128,7 @@
 
 .role-bg-2::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@
 
 .home-bg::before {
   content: "";
-  background-image: url('/website.png');
+  background-image: url('/Website.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
