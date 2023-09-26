@@ -28,7 +28,7 @@ const Contact = () => {
                             For any inquiries about us and the work we do, please use the form on the right and drop a note to us. We will be sure to get back to you as soon as we can.
                         </div>
                         <div className='h-[300px] md:mb-0 mb-[-130px] md:w-[400px] md:mt-8 items-end md:ml-[250px] flex'>
-                            <img src='/contact/contact.gif' alt='image'/>
+                            <img src='/contact/Contact.gif' alt='image'/>
                         </div>
                     </div>
                     <div className='w-full'>
