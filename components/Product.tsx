@@ -7,8 +7,8 @@ const Product = () => {
     return (
         <div className="flex flex-col w-full md:pt-12 pt-4 md:gap-10 gap-3 rounded-lg">
             <div className="flex md:flex-row md:gap- md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
-                <div className="flex flex-col md:gap-5 gap-2 items-center md:items-start">
-                    <span className="md:block hidden md:text-4xl md:font-extrabold font-bold text-xl">Stand at <span className="text-red-600">Ease</span></span>
+                <div className="product-bg flex flex-col md:gap-5 gap-2 items-center md:items-start">
+                    <span className="md:block hidden md:text-4xl md:font-extrabold font-bold text-xl">Stand At <span className="text-red-600">Eaze</span></span>
                     <div className='flex md:flex-row flex-col md:gap-12 gap-6 mt-4 md:text-start text-center'>
                         <span className='flex md:flex-row flex-col gap-3 text-xl justify-center'>
                             <div className='flex justify-center md:justify-start'>
@@ -22,7 +22,7 @@ const Product = () => {
                             </div>
                             <span className='text-xl'>Can be set to any height and weight of a person.</span>
                         </span>
-                        <span className='flex md:flex-row flex-col gap-3 text-xl justify-center'>
+                        <span className='flex md:flex-row flex-col gap-3 text-xl justify-center md:ml-12'>
                             <div className='flex justify-center md:justify-start'>
                                 <svg width="70" height="60" viewBox="0 0 73 73" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="36.5" cy="36.5" r="35.5" fill="white" stroke="#18ACB6" stroke-width="2" />
@@ -56,29 +56,40 @@ const Product = () => {
                                     <path d="M74.4567 36.5C74.4567 56.0752 58.0443 72 37.7284 72C17.4124 72 1 56.0752 1 36.5C1 16.9248 17.4124 1 37.7284 1C58.0443 1 74.4567 16.9248 74.4567 36.5Z" fill="white" stroke="#18ACB6" stroke-width="2" />
                                     <path d="M24.8666 22.8125C24.8666 21.8224 25.307 20.873 26.0909 20.1729C26.8748 19.4728 27.9381 19.0795 29.0467 19.0795H42.9805C44.0891 19.0795 45.1524 19.4728 45.9363 20.1729C46.7202 20.873 47.1606 21.8224 47.1606 22.8125V24.0568C47.1605 25.1603 46.7498 26.2326 45.9932 27.1051C45.2366 27.9776 44.1769 28.601 42.9805 28.8773V32.767C44.0854 32.767 45.0733 33.1951 45.869 33.7339C46.6729 34.2789 47.3808 35.0006 47.9618 35.7571C49.0891 37.2254 49.9474 39.1043 49.9474 40.544C49.9474 41.3107 49.6592 42.0552 49.1288 42.6581C48.5985 43.261 47.8568 43.6873 47.0227 43.8688L48.8452 51.9046C49.2521 53.7462 47.3836 54.9706 46.3302 51.9046L43.3706 43.9659H42.9359L42.8105 48.9208C42.7506 50.8283 41.0089 50.5807 40.9294 48.9208L40.3749 43.9659H31.6523L31.0978 48.9208C31.017 50.5807 29.2766 50.8283 29.2167 48.9208L29.0913 43.9659H28.6552L25.6956 51.9046C24.6423 54.9706 22.7737 53.7462 23.1806 51.9046L25.0031 43.8688C24.1694 43.6869 23.4282 43.2604 22.8981 42.6575C22.3681 42.0547 22.08 41.3105 22.0798 40.544C22.0798 39.1056 22.9382 37.2254 24.0654 35.7571C24.6464 35.0006 25.3543 34.2789 26.1582 33.7339C26.9539 33.1951 27.9418 32.767 29.0467 32.767V28.8773C27.8503 28.601 26.7906 27.9776 26.034 27.1051C25.2774 26.2326 24.8668 25.1603 24.8666 24.0568V22.8125ZM29.0467 35.2557C28.7583 35.2557 28.3528 35.3714 27.8428 35.7173C27.3398 36.0583 26.8285 36.561 26.3645 37.1644C25.4016 38.4187 24.8666 39.8049 24.8666 40.544C24.8666 41.0592 25.3348 41.4773 25.9116 41.4773H46.1156C46.3927 41.4773 46.6586 41.3789 46.8545 41.2039C47.0505 41.0289 47.1606 40.7915 47.1606 40.544C47.1606 39.8049 46.6256 38.4187 45.6627 37.1644C45.1987 36.561 44.6874 36.057 44.1858 35.7173C43.6744 35.3714 43.2689 35.2557 42.9805 35.2557H29.0467ZM40.1937 32.767V29.0341H31.8335V32.767H40.1937ZM44.3739 24.0568V22.8125C44.3739 22.4825 44.2271 22.166 43.9658 21.9326C43.7045 21.6993 43.35 21.5682 42.9805 21.5682H29.0467C28.6772 21.5682 28.3228 21.6993 28.0615 21.9326C27.8001 22.166 27.6533 22.4825 27.6533 22.8125V24.0568C27.6533 24.7168 27.9469 25.3498 28.4696 25.8165C28.9922 26.2832 29.701 26.5454 30.4401 26.5454H41.5871C42.3262 26.5454 43.035 26.2832 43.5576 25.8165C44.0803 25.3498 44.3739 24.7168 44.3739 24.0568Z" fill="#FB0000" />
                                 </svg>
-
                             </div>
                             <span>Seat cushion designed to sit in comfort </span>
                         </span>
                     </div>
-                    <div className='flex md:ml-8 md:mt-2 mt-6 shadow-xl text-white'>
-                        <button className='bg-red-500 md:px-4 md:p-2 px-6 py-4 md:text-base text-xs shadow-xl boreder-b rounded-lg'>Pre-order Now</button>
+                    <div className='flex md:ml-2 md:mt-2 mt-6 shadow-xl text-white'>
+                        <button className='bg-red-500 md:px-4 md:p-2 px-6 py-4 md:text-base text-xs shadow-xl boreder-b rounded-md'>Pre-order Now</button>
                     </div>
                 </div>
-                <div>
-                    <Image src="/Product/product.png" className='' width={400} height={400} alt="logo"></Image>
+
+                <div className='w-1/3 ml-4'>
+                    <Carousel>
+                        <div className='h-half w-half'>
+                            <Image src="/Product/product.png" className='' width={300} height={300} alt="logo" />
+                        </div>
+                        <div>
+                            <Image src="/Product/product.png" className='' width={400} height={400} alt="logo" />
+                        </div>
+                        <div>
+                            <Image src="/Product/product.png" className='' width={400} height={400} alt="logo" />
+                        </div>
+                    </Carousel>
                 </div>
-                <span className="md:text-4xl my-4 md:hidden text-center md:font-extrabold font-bold text-2xl">Stand at <span className="text-red-600">Ease</span></span>
+
+                <span className="md:text-4xl my-4 md:hidden text-center md:font-extrabold font-bold text-2xl">Stand at<span className="text-red-600">Eaze</span></span>
             </div>
-            <span className="md:text-4xl text-xl font-bold md:font-extrabold md:ml-[61px] mx-6">
-                        How does Stand at <span className='text-red-600'>Eaze</span> Work?
-                    </span>
+            <span className="md:text-4xl text-xl font-bold md:font-extrabold md:ml-[85px] mx-6">
+                How does Stand at <span className='text-red-600'>Eaze</span> Work?
+            </span>
             <div className="md:grid md:grid-cols-2 flex flex-col-reverse md:ml-[61px] md:gap-28 mx-6">
                 <div>
-                  
-                    <div className="flex flex-col gap-12 mt-12">
+
+                    <div className="flex flex-col gap-12">
                         <div className="flex flex-col">
-                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-20'>SITTING</span>
+                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-8'>SITTING</span>
                             <div className='mt-8 flex flex-row gap-2'>
                                 <svg width="40" height="30" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.8011 19.4194V0L0 10.5188L17.8011 19.4194Z" fill="#FB1010" />
@@ -95,7 +106,7 @@ const Product = () => {
                             </div>
                         </div>
                         <div className="flex flex-col">
-                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-20'>STANDING</span>
+                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-8'>STANDING</span>
                             <div className='mt-8 flex flex-row gap-2'>
                                 <svg width="100" height="30" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.8011 19.4194V0L0 10.5188L17.8011 19.4194Z" fill="#FB1010" />
@@ -114,9 +125,9 @@ const Product = () => {
                         </div>
                     </div>
                 </div>
-                <div >
+                <div className='product-bg-1'>
                     <iframe
-                       className="md:block hidden"
+                        className="md:block hidden"
                         width="550vw"
                         height="300vw"
                         src='/Product/STS 2.MP4'
@@ -124,9 +135,9 @@ const Product = () => {
                         allowFullScreen
                         title="Embedded youtube"
                     />
-                     <iframe
-                       className="block md:hidden mt-8 pr-6"
-                        width="380vw"
+                    <iframe
+                        className="block md:hidden mt-8 pr-6"
+                        width="360vw"
                         height="200vw"
                         src='/Product/STS 2.MP4'
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -140,13 +151,29 @@ const Product = () => {
                     Let’s see the process which went behind making the product
                 </span>
                 <div className="flex md:flex-row flex-col-reverse md:gap-12 gap-6 flex-1 md:items-start items-center pt-8">
-                    <span className='text-lg md:block hidden'>The Stand At Eaze chair incorporates a unique mechanism that offers excellent support to users. As the user begins to sit, the chair provides a sharp rise, providing crucial support, which gradually slows down as they fully sit. This design ensures that users do not exert unnecessary tension on their knees while seated</span>
-                    <span className='md:hidden'>
-                    “Our product, the Stand At Eaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs. 
-Designed with input from Geriatricians and user insights, it features a patented Compliant Hinge Mechanism for enhanced ease and comfort during transitions. 
-This fully mechanical, independent chair offers dynamic balancing and serves as an assistive and rehabilitative device, providing reliable support in home and hospital settings.”
+                    <span className='text-lg md:flex flex-col gap-8 hidden'>
+                        <p>
+                            “Our product, the Stand At Eaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
+                        </p>
+                        <p>
+                            Designed with input from Geriatricians and user insights, it features a patented Compliant Hinge Mechanism for enhanced ease and comfort during transitions.
+
+                        </p>
+                        <p>
+                            This fully mechanical, independent chair offers dynamic balancing and serves as an assistive and rehabilitative device, providing reliable support in home and hospital settings.”
+                           
+                        </p>
+                        <p className='flex justify-end font-semibold'>
+                                -Prof. Ananthasuresh
+                            </p>
+
                     </span>
-                    <div >
+                    <span className='md:hidden'>
+                        “Our product, the Stand At Eaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
+                        Designed with input from Geriatricians and user insights, it features a patented Compliant Hinge Mechanism for enhanced ease and comfort during transitions.
+                        This fully mechanical, independent chair offers dynamic balancing and serves as an assistive and rehabilitative device, providing reliable support in home and hospital settings.”
+                    </span>
+                    <div>
                         <iframe
                             className="md:block hidden"
                             width="550vw"
@@ -156,9 +183,9 @@ This fully mechanical, independent chair offers dynamic balancing and serves as 
                             allowFullScreen
                             title="Embedded youtube"
                         />
-                          <iframe
-                          className="md:hidden pl-6"
-                            width="380vw"
+                        <iframe
+                            className="md:hidden pl-6"
+                            width="360vw"
                             height="200vw"
                             src='https://www.youtube.com/embed/aD1c_YmHsFg'
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

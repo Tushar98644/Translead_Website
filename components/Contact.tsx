@@ -31,7 +31,7 @@ const Contact = () => {
                             <img src='/contact/Contact.gif' alt='image'/>
                         </div>
                     </div>
-                    <div className='w-full'>
+                    <div className='w-full md:mr-12'>
                         <form onSubmit={() => console.log('hello')}>
                             <div className="grid md:grid-cols-2 md:gap-6">
                                 <div className="relative z-0 w-full mb-6 group">
