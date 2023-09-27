@@ -65,7 +65,7 @@ const Product = () => {
                     </div>
                 </div>
 
-                <div className='w-1/3 ml-4'>
+                <div className='md:w-1/3 md:ml-4'>
                     <Carousel>
                         <div className='h-half w-half'>
                             <Image src="/Product/product.png" className='' width={300} height={300} alt="logo" />
@@ -86,18 +86,17 @@ const Product = () => {
             </span>
             <div className="md:grid md:grid-cols-2 flex flex-col-reverse md:ml-[61px] md:gap-28 mx-6">
                 <div>
-
-                    <div className="flex flex-col gap-12">
+                    <div className="flex flex-col md:gap-12 gap-8">
                         <div className="flex flex-col">
-                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-8'>SITTING</span>
-                            <div className='mt-8 flex flex-row gap-2'>
+                            <span className='text-red-400 md:text-4xl text-xl font-black opacity-50 md:px-8 md:py-0 pt-12'>SITTING</span>
+                            <div className='md:mt-8 mt-4 flex flex-row gap-2'>
                                 <svg width="40" height="30" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.8011 19.4194V0L0 10.5188L17.8011 19.4194Z" fill="#FB1010" />
                                     <path d="M18.6104 19.4195V11.3281L25.0835 15.006L18.6104 19.4195Z" fill="#FB1010" fill-opacity="0.31" />
                                 </svg>
                                 <ul>As the user begins to sit, the chair provides a sharp rise, providing crucial support, which gradually slows down as they fully sit</ul>
                             </div>
-                            <div className='mt-8 flex flex-row gap-2'>
+                            <div className='md:mt-8 mt-4 flex flex-row gap-2'>
                                 <svg width="36" height="30" viewBox="0 0 26 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M17.8011 19.4194V0L0 10.5188L17.8011 19.4194Z" fill="#FB1010" />
                                     <path d="M18.6104 19.4195V11.3281L25.0835 15.006L18.6104 19.4195Z" fill="#FB1010" fill-opacity="0.31" />
