@@ -54,7 +54,7 @@ const Team = () => {
                     </div>
                 </div>
             </div>
-            <div className="font-medium md:font-bold md:text-[26px] text-base flex justify-center text-center md:mt-0 mt-5 mx-4">
+            <div className="font-medium md:font-bold md:text-[25px] text-base flex justify-center text-center md:mt-0 mt-5 mx-4">
                 <span>Could not find your position? Submit this form and we will get back to you sure!</span>
             </div>
             <div className="mt-5 md:flex hidden ml-[280px] mr-[150px]">
@@ -79,7 +79,7 @@ const Team = () => {
                     </div>
 
                     <div className="mx-[350px] mt-8">
-                        <button type="submit" className="text-white bg-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-20 py-2.5  shadow-xl">Submit</button>
+                        <button type="submit" className="mr-20 text-white bg-red-500 hover:bg-red-700 focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded-lg text-sm px-20 py-2.5  shadow-xl">Submit</button>
                     </div>
                 </form>
             </div>
