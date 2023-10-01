@@ -1,8 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import FlipCard from "./FlipCard";
 
 const Team = () => {
+
+    const [isFlipped, setIsFlipped] = useState(false);
+
+    const handleClick = () => {
+        setIsFlipped(!isFlipped);
+    };
+
     return (
         <div className="pt-24 md:pt-32 flex flex-col md:gap-10 gap-4">
             <div className="md:font-extrabold font-bold text-lg md:text-4xl flex md:justify-center justify-center team-bg-1">
@@ -12,6 +21,7 @@ const Team = () => {
                 We are extremely grateful to the learned professors who have helped and guided us on several occasions, enriching us with their knowledge and ideologies.
             </div>
             <div className="md:grid md:grid-cols-4 flex flex-col md:mx-[89px] items-center md:gap-[91px] gap-8">
+                <FlipCard name={""} position={""} children={undefined}/>
                 <div className="flex flex-col items-center gap-0">
                     <svg width="231" height="279" viewBox="0 0 231 279" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_1798_1139)">
@@ -71,7 +81,7 @@ const Team = () => {
                     <p className="text-xl md:font-extrabold font-semibold mt-8">Dr. Medha Rao</p>
                     <p className="text-base mx-0 mt-4 mx-12 text-center"> Principal and Dean, M.S. Ramaiah Medical College</p>
                 </div>
-                <div className="flex flex-col items-center gap-0">
+                {/* <div className="flex flex-col items-center gap-0">
                     <svg width="231" height="280" viewBox="0 0 231 279" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_1798_1139)">
                             <rect x="8" y="8" width="207" height="255" rx="8" fill="url(#pattern0)" shape-rendering="crispEdges" />
@@ -95,7 +105,7 @@ const Team = () => {
                     </svg>
                     <p className="text-xl md:font-extrabold font-semibold mt-8">Dr. Pretesh. R. Kiran</p>
                     <p className="text-center text-base md:mx-0 mx-16 mt-4">Associate Professor at Department of Community Health, St John's Medical College, Bangalore</p>
-                </div>
+                </div> */}
 
             </div>
             <div className="font-bold flex md:text-[40px] text-xl justify-center md:mx-0 mx-4 items-center text-center md:pt-20 pt-8 team-bg-2">
