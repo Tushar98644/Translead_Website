@@ -71,10 +71,10 @@ const Product = () => {
                             <Image src="/Product/product.png" className='' width={300} height={300} alt="logo" />
                         </div>
                         <div>
-                            <Image src="/Product/product.png" className='' width={400} height={400} alt="logo" />
+                            <Image src="/Product/p-red.png" className='scale-[2.5]' width={800} height={800} alt="logo" />
                         </div>
                         <div>
-                            <Image src="/Product/product.png" className='' width={400} height={400} alt="logo" />
+                            <Image src="/Product/p-yellow.png" className='scale-[2.5]' width={400} height={400} alt="logo" />
                         </div>
                     </Carousel>
                 </div>
@@ -177,7 +177,7 @@ const Product = () => {
                             className="md:block hidden"
                             width="550vw"
                             height="300vw"
-                            src='https://www.youtube.com/embed/aD1c_YmHsFg'
+                            src='https://youtu.be/WuFpR6bOink?si=ro__sz2GhqtUN2RN'
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                             title="Embedded youtube"
@@ -186,7 +186,7 @@ const Product = () => {
                             className="md:hidden pl-6"
                             width="360vw"
                             height="200vw"
-                            src='https://www.youtube.com/embed/aD1c_YmHsFg'
+                            src='https://youtu.be/WuFpR6bOink?si=ro__sz2GhqtUN2RN'
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                             title="Embedded youtube"

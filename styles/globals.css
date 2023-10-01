@@ -202,6 +202,35 @@
   opacity: 0.4;
 }
 
+.home-video::before {
+  content: "";
+  background-image: url('/Home/translead_video.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: rotate(0deg);
+  top: -110px;
+  left: 30%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 1;
+
+
+}
+
+@media screen and (max-width:500px) {
+  .home-video::before{
+  left:0;
+  top:50px;
+  opacity: 0.3;
+  height: 100vh;
+  /* width: 0%; */
+  }
+
+}
+
 @media screen and (width: 375px) {
   .home-bg::before {
     top: 60px;

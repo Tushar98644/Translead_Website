@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <div className='flex flex-col home-bg'>
-                <div className="pt-12 min-w-full relative">
+                <div className="pt-12 min-w-full relative home-video">
                     <svg className='sm:block hidden' width="100%" height="891" viewBox="0 0 1440 891" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g filter="url(#filter0_d_0_1)">
                             <path d="M741.787 22C431.566 610.941 799.294 770.725 1021.94 777H0V22H741.787Z" fill="#99D6D4" />
