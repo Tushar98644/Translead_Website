@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState } from "react";
+import { FlipCard } from "@/types/flipCard";
 
-const FlipCard = ({ name, position, desc1, desc2, desc3,frontName,frontPosition }) => {
+const FlipCard = ({ name, position, desc1, desc2, desc3,frontName,frontPosition }:FlipCard) => {
 
     return (
         <div className="flex mt-[-100px] hover:mr-20">
