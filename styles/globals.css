@@ -220,17 +220,78 @@
 
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:850px) {
   .home-video::before{
   left:0;
-  top:50px;
+  top:0px;
   opacity: 0.3;
-  height: 100vh;
+  height: 55vh;
   /* width: 0%; */
   }
 
 }
 
+@media screen and (max-width:475px) {
+  .home-video::before{
+  left:0;
+  top:50px;
+  opacity: 0.3;
+  height: 102vh;
+  /* width: 0%; */
+  }
+}
+@media screen and (width:360px) {
+  .home-video::before{
+  left:0;
+  top:50px;
+  opacity: 0.3;
+  height: 93vh;
+  /* width: 0%; */
+  }
+
+}
+@media screen and (width:393px) {
+  .home-video::before{
+  left:0;
+  top:50px;
+  opacity: 0.3;
+  height: 83vh;
+  /* width: 0%; */
+  }
+
+}
+
+
+@media screen and (width:414px) {
+  .home-video::before{
+  left:0;
+  top:0px;
+  opacity: 0.3;
+  height: 85vh;
+  /* width: 0%; */
+  }
+
+}
+@media screen and (width:390px) {
+  .home-video::before{
+  left:0;
+  top:0px;
+  opacity: 0.3;
+  height: 85vh;
+  /* width: 0%; */
+  }
+
+}
+@media screen and (width:412px) {
+  .home-video::before{
+  left:0;
+  top:0px;
+  opacity: 0.3;
+  height: 85vh;
+  /* width: 0%; */
+  }
+
+}
 @media screen and (width: 375px) {
   .home-bg::before {
     top: 60px;
