@@ -19,7 +19,7 @@ const Contact = () => {
     return (
         <Fragment>
             <div className="md:pt-36 pt-24 flex flex-col sm:mx-10 mx-6 gap-4">
-                <div className="flex md:flex-row flex-col md:gap-20 gap-8">
+                <div className="flex md:flex-row flex-col md:gap-12 gap-8">
                     <div className="flex flex-col gap-2">
                         <div className="sm:font-extrabold font-bold md:text-4xl text-2xl  flex justify-start">
                             Contact
@@ -31,7 +31,7 @@ const Contact = () => {
                             <img src='/contact/Contact.gif' alt='image'/>
                         </div>
                     </div>
-                    <div className='w-full md:mr-12'>
+                    <div className='w-full md:mr-4'>
                         <form onSubmit={() => console.log('hello')}>
                             <div className="grid md:grid-cols-2 md:gap-6">
                                 <div className="relative z-0 w-full mb-6 group">
@@ -43,7 +43,7 @@ const Contact = () => {
                                         onChange={(e) => setLastName(e.target.value)} placeholder="Last Name" required />
                                 </div>
                             </div>
-                            <div className="relative z-0 w-full mb-6 group">
+                            <div className="relative z-0 mb-6 group">
                                 <input type="email" name="floating_email" id="floating_email" className="block py-2.5 px-3 w-full text-black bg-[#F5F5F7] border border-[#64AFAC]  rounded-lg focus:outline-none focus:ring-0 focus:border-blue-600 peer"
                                     onChange={(e) => setEmail(e.target.value)} placeholder="Email " required />
                             </div>

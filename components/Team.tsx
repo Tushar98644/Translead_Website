@@ -75,7 +75,7 @@ const Team = () => {
                         <input type="text" className="shadow-sm bg-gray-50 border border-[#64AFAC] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-11/12 p-4" placeholder="Position" required />
                     </div>
                     <div className="mb-6">
-                        <input type="url" className="shadow-sm bg-gray-50 border border-[#64AFAC] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-11/12 p-4" placeholder="Resume" required />
+                        <input type="file" className="shadow-sm bg-gray-50 border border-[#64AFAC] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-11/12 p-4" placeholder="Resume" required />
                     </div>
 
                     <div className="mx-[350px] mt-8">

@@ -152,8 +152,8 @@ const Home = () => {
                 </div>
                 <div className='grid sm:grid-cols-2 grid-rows md:gap-[0px] gap-2 md:mx-[27px]'>
                     <div className='flex flex-col md:gap-8 gap-4 mt-12 md:mt-0 mx-[20px] '>
-                        <span className='md:text-xl text-lg md:font-black font-bold md:mt-[122px]'>STAND AT <span className='text-red-600'>EASE</span></span>
-                        <span className='text-lg md:text-lg'>Stand at Eaze is an assistive chair for the elderly who suffer from knee joint problem and face difficulty while raising up from the sitting posture.</span>
+                        <span className='md:text-xl text-lg md:font-black font-bold md:mt-[122px]'>STAND At<span className='text-red-600'>EAZE</span></span>
+                        <span className='text-lg md:text-lg'>Stand AtEaze is an assistive chair for the elderly who suffer from knee joint problem and face difficulty while raising up from the sitting posture.</span>
                     </div>
                     <div className='flex-row mt-4 mx-0 hidden sm:flex mb-[-200px]'>
                         <div className='mx-0 flex flex-row'>

@@ -7,12 +7,12 @@ import Image from 'next/image';
 const About = () => {
     return (
         <div className="flex flex-col md:gap-10 gap-0 w-full md:pt-12 pt-4">
-            <div className="md:flex flex-row gap-40 md:px-12 py-12 about mt-8">
+            <div className="md:flex flex-row gap-40 md:px-12 md:pt-12 py-12 about mt-8">
                 <div className="flex flex-col gap-3 md:px-0 px-4">
                     <span className="md:text-4xl text-xl font-black">Our <span className="text-red-600">Mission</span> </span>
-                    <div className='flex flex-row'>
+                    <div className='flex flex-row md:mb-[-22vw]'>
                         <span className='text-base'>To be part of people's lives by offering Innovative, affordable and high quality medtech products.</span>
-                        <div className='md:block pb-0 md:mb-[-3vw] md:mr-2'>
+                        <div className='md:block pb-0 md:mr-2'>
                                 <svg width="90" height="90" viewBox="0 0 115 119" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g filter="url(#filter0_d_1800_2008)">
                                     <rect x="2" y="2" width="103" height="107" fill="url(#pattern0)" fill-opacity="0.7" shape-rendering="crispEdges" />
@@ -39,15 +39,15 @@ const About = () => {
                 <div className='md:hidden bg-white h-1'>
 
                 </div>
-                <div className="flex flex-col gap-3 md:mx-4 md:mt-0 md:px-0 px-4 mt-6">
+                <div className="flex flex-col gap-3 md:mx-4 md:mt-0 md:px-0 md:mb-[-2vw] px-4 mt-6">
                     <div className='flex flex-row gap-1'>
                         <span className="md:text-4xl text-xl font-extrabold md:mx-4">Our <span className="text-red-600">Vision</span> </span>
-                        <div className='pb-0 md:mt-[-1vw] mt-[-8vw] md:ml-0 ml-36 md:flex  mr-0'>
+                        <div className='pb-0 absolute md:mt-[-2vw] mt-[12vw] md:ml-0 ml-[70vw] md:flex md:relative mr-0'>
                             <Image alt="vision-image " src='/About/Vision.png' width={90} height={90} />
                         </div>
 
                     </div>
-                    <span className='md:ml-5 text-base'>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
+                    <span className='md:ml-5 text-base md:mr-0 mr-20'>To be one of the leading medtech companies in the world, admired for its innovation, and results contributing to a better, sustainable and Eco friendly world.</span>
                 </div>
             </div>
             <div className='md:grid md:grid-cols-2 flex flex-col-reverse gap-4 md:mx-12 mx-4 md:mt-0 mt-[-26px]'>

@@ -6,9 +6,9 @@ import Image from 'next/image';
 const Product = () => {
     return (
         <div className="flex flex-col w-full md:pt-12 pt-4 md:gap-10 gap-3 rounded-lg">
-            <div className="flex md:flex-row md:gap- md:px-12 px-6 py-8 mt-8 background flex-col-reverse">
+            <div className="flex md:flex-row md:px-12 px-6 md:pt-16 py-8 md:mt-0 mt-8 background flex-col-reverse">
                 <div className="product-bg flex flex-col md:gap-5 gap-2 items-center md:items-start">
-                    <span className="md:block hidden md:text-4xl md:font-extrabold font-bold text-xl">Stand At <span className="text-red-600">Eaze</span></span>
+                    <span className="md:block hidden md:text-4xl md:font-extrabold font-bold text-xl">Stand At<span className="text-red-600">Eaze</span></span>
                     <div className='flex md:flex-row flex-col md:gap-12 gap-6 mt-4 md:text-start text-center'>
                         <span className='flex md:flex-row flex-col gap-3 text-xl justify-center'>
                             <div className='flex justify-center md:justify-start'>
@@ -79,10 +79,10 @@ const Product = () => {
                     </Carousel>
                 </div>
 
-                <span className="md:text-4xl my-4 md:hidden text-center md:font-extrabold font-bold text-2xl">Stand at<span className="text-red-600">Eaze</span></span>
+                <span className="md:text-4xl my-4 md:hidden text-center md:font-extrabold font-bold text-2xl">Stand At<span className="text-red-600">Eaze</span></span>
             </div>
-            <span className="md:text-4xl text-xl font-bold md:font-extrabold md:ml-[85px] mx-6">
-                How does Stand at <span className='text-red-600'>Eaze</span> Work?
+            <span className="md:text-4xl md:mt-[0vw] text-xl font-bold md:font-extrabold md:ml-[85px] mx-6">
+                How does Stand At<span className='text-red-600'>Eaze</span> Work?
             </span>
             <div className="md:grid md:grid-cols-2 flex flex-col-reverse md:ml-[61px] md:gap-28 mx-6">
                 <div>
@@ -120,11 +120,16 @@ const Product = () => {
                                     <path d="M18.6104 19.4195V11.3281L25.0835 15.006L18.6104 19.4195Z" fill="#FB1010" fill-opacity="0.31" />
                                 </svg>
                                 <ul>Additionally, the mechanism provides resistance against sudden drops, offering protection to the hips and reducing activation of the thigh muscles.</ul>
+                               
                             </div>
+                            <div>
+                                    <Image alt='' src='/Product/video.gif' width={300} height={300}/>
+                                </div>
                         </div>
                     </div>
                 </div>
-                <div className='product-bg-1'>
+                <div className='product-bg-1'></div>
+                {/* <div className='product-bg-1'>
                     <iframe
                         className="md:block hidden"
                         width="550vw"
@@ -143,7 +148,7 @@ const Product = () => {
                         allowFullScreen
                         title="Embedded youtube"
                     />
-                </div>
+                </div> */}
             </div>
             <div className="md:flex flex-col md:mx-[61px] gap-8 mt-5 mx-6">
                 <span className="md:text-4xl text-xl md:font-extrabold font-bold">
@@ -152,7 +157,7 @@ const Product = () => {
                 <div className="flex md:flex-row flex-col-reverse md:gap-12 gap-6 flex-1 md:items-start items-center pt-8">
                     <span className='text-lg md:flex flex-col gap-8 hidden'>
                         <p>
-                            “Our product, the Stand At Eaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
+                            “Our product, the Stand AtEaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
                         </p>
                         <p>
                             Designed with input from Geriatricians and user insights, it features a patented Compliant Hinge Mechanism for enhanced ease and comfort during transitions.
@@ -168,7 +173,7 @@ const Product = () => {
 
                     </span>
                     <span className='md:hidden'>
-                        “Our product, the Stand At Eaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
+                        “Our product, the Stand AtEaze chair, addresses the issue of high thigh muscle activation during stand-to-sit and sit-to-stand actions observed in regular chairs.
                         Designed with input from Geriatricians and user insights, it features a patented Compliant Hinge Mechanism for enhanced ease and comfort during transitions.
                         This fully mechanical, independent chair offers dynamic balancing and serves as an assistive and rehabilitative device, providing reliable support in home and hospital settings.”
                     </span>
@@ -183,8 +188,8 @@ const Product = () => {
                             title="Embedded youtube"
                         />
                         <iframe
-                            className="md:hidden pl-6"
-                            width="360vw"
+                            className="md:hidden pl-0"
+                            width="350vw"
                             height="200vw"
                             src='https://youtu.be/WuFpR6bOink?si=ro__sz2GhqtUN2RN'
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
