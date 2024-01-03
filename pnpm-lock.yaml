@@ -59,8 +59,8 @@ dependencies:
 
 devDependencies:
   '@types/mapbox-gl':
-    specifier: ^2.7.11
-    version: 2.7.11
+    specifier: ^2.7.19
+    version: 2.7.19
   '@types/react':
     specifier: 18.2.14
     version: 18.2.14
@@ -709,8 +709,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: false
 
-  /@types/mapbox-gl@2.7.11:
-    resolution: {integrity: sha512-4vSwPSTQIawZTFRiTY2R74aZwAiM9gE6KGj871xdyAPpa+DmEObXxQQXqL2PsMH31/rP9nxJ2Kv0boeTVJMXVw==}
+  /@types/mapbox-gl@2.7.19:
+    resolution: {integrity: sha512-pkRdlhQJNbtwcKJSVC4uuOA6M3OlOObIMhNecqHB991oeaDF5XkjSIRaTE0lh5p4KClptSCxW6MBiREVRHrl2A==}
     dependencies:
       '@types/geojson': 7946.0.10
 
@@ -2989,7 +2989,7 @@ packages:
         optional: true
     dependencies:
       '@maplibre/maplibre-gl-style-spec': 19.3.3
-      '@types/mapbox-gl': 2.7.11
+      '@types/mapbox-gl': 2.7.19
       mapbox-gl: 3.0.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
