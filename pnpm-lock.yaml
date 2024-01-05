@@ -1446,7 +1446,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       get-intrinsic: 1.2.2
-      has: 1.0.3
+      has: 1.0.4
       has-tostringtag: 1.0.0
     dev: false
 
@@ -1588,7 +1588,7 @@ packages:
       eslint: 8.44.0
       eslint-import-resolver-node: 0.3.7
       eslint-module-utils: 2.8.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-node@0.3.7)(eslint-import-resolver-typescript@3.5.5)(eslint@8.44.0)
-      has: 1.0.3
+      has: 1.0.4
       is-core-module: 2.13.1
       is-glob: 4.0.3
       minimatch: 3.1.2
@@ -2091,11 +2091,9 @@ packages:
       has-symbols: 1.0.3
     dev: false
 
-  /has@1.0.3:
-    resolution: {integrity: sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==}
+  /has@1.0.4:
+    resolution: {integrity: sha512-qdSAmqLF6209RFj4VVItywPMbm3vWylknmB3nvNiUIs72xAimcM8nVYxYr7ncvZq5qzk9MKIZR8ijqD/1QuYjQ==}
     engines: {node: '>= 0.4.0'}
-    dependencies:
-      function-bind: 1.1.2
     dev: false
 
   /hasown@2.0.0:
@@ -2159,7 +2157,7 @@ packages:
     engines: {node: '>= 0.4'}
     dependencies:
       get-intrinsic: 1.2.2
-      has: 1.0.3
+      has: 1.0.4
       side-channel: 1.0.4
     dev: false
 
