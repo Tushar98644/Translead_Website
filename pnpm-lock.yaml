@@ -48,8 +48,8 @@ dependencies:
     specifier: 18.2.0
     version: 18.2.0(react@18.2.0)
   react-map-gl:
-    specifier: ^7.1.0
-    version: 7.1.0(mapbox-gl@3.0.1)(react-dom@18.2.0)(react@18.2.0)
+    specifier: ^7.1.7
+    version: 7.1.7(mapbox-gl@3.0.1)(react-dom@18.2.0)(react@18.2.0)
   react-responsive-carousel:
     specifier: ^3.2.23
     version: 3.2.23
@@ -2917,8 +2917,8 @@ packages:
     resolution: {integrity: sha512-xWGDIW6x921xtzPkhiULtthJHoJvBbF3q26fzloPCK0hsvxtPVelvftw3zjbHWSkR2km9Z+4uxbDDK/6Zw9B8w==}
     dev: false
 
-  /react-map-gl@7.1.0(mapbox-gl@3.0.1)(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-D9wuywv9lD1ZBmgZRDCYQpc2GPJ8c75tn4RkwT2ETci4mCApk6j8Qu1j0cgtNos6AVwpVaiSo7B7T1SAhSCgEw==}
+  /react-map-gl@7.1.7(mapbox-gl@3.0.1)(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-mwjc0obkBJOXCcoXQr3VoLqmqwo9vS4bXfbGsdxXzEgVCv/PM0v+1QggL7W0d/ccIy+VCjbXNlGij+PENz6VNg==}
     peerDependencies:
       mapbox-gl: '>=1.13.0'
       maplibre-gl: '>=1.13.0'
