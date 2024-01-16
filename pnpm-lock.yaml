@@ -1051,7 +1051,7 @@ packages:
     dependencies:
       caniuse-lite: 1.0.30001576
       electron-to-chromium: 1.4.629
-      node-releases: 2.0.12
+      node-releases: 2.0.14
       update-browserslist-db: 1.0.11(browserslist@4.21.9)
     dev: false
 
@@ -2525,8 +2525,8 @@ packages:
       - babel-plugin-macros
     dev: false
 
-  /node-releases@2.0.12:
-    resolution: {integrity: sha512-QzsYKWhXTWx8h1kIvqfnC++o0pEmpRQA/aenALsL2F4pqNVr7YzcdMlDij5WBnwftRbJCNJL/O7zdKaxKPHqgQ==}
+  /node-releases@2.0.14:
+    resolution: {integrity: sha512-y10wOWt8yZpqXmOgRo77WaHEmhYQYGNA6y421PKsKYWEK8aW+cqAphborZDhqfyKrbZEN92CN1X2KbafY2s7Yw==}
     dev: false
 
   /normalize-path@3.0.0:
